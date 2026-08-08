@@ -1,0 +1,113 @@
+{
+  "accompaniment_type": "block",
+  "attribution": [
+    {
+      "component": "string voice model training data",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "note": "CC0 requires no attribution; the source is stated for transparency.",
+      "source": "OpenScore String Quartets"
+    }
+  ],
+  "bpm": 80.0,
+  "category": "classical_duo",
+  "declared_progression": null,
+  "duration_seconds": 72.0,
+  "engine_commit": "18f1ca2+dirty",
+  "files": [
+    {
+      "bytes": 3344,
+      "format": "midi",
+      "name": "classical_duo_4401.mid",
+      "role": "main",
+      "sha256": "427006775cf61e9b904c2281d1d5db1eeab7c253aed4a8530f215877065ea68c"
+    },
+    {
+      "bytes": 1344485,
+      "format": "mp3",
+      "name": "classical_duo_4401.mp3",
+      "purpose": "preview",
+      "role": "main",
+      "sha256": "d755d48adf124e75156d696cda5b2d69b8c3bf887f33778065f27900d638e082"
+    },
+    {
+      "bytes": 13186604,
+      "format": "wav",
+      "name": "classical_duo_4401.wav",
+      "role": "main",
+      "sha256": "e50c6cf46d2143ab859c3c9d4e1aa71c8f16aaa364219d560629b78804a9befa"
+    }
+  ],
+  "form": "ABA",
+  "generated_date": "2026-08-04",
+  "instrumentation": [
+    "violin",
+    "cello"
+  ],
+  "length_tier": "短",
+  "license": {
+    "generated_content": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "meter_beats": 4,
+  "mode": "major",
+  "modulation_semitones": 0,
+  "n_measures": 24,
+  "preset": "のどか",
+  "screening": {
+    "parts": [
+      {
+        "family": "classical_cello",
+        "flagged": false,
+        "longest_match_tokens": 8,
+        "min_window_song_count": 1,
+        "n_rare_windows": 1,
+        "n_tokens": 173,
+        "part": "cello"
+      },
+      {
+        "family": "classical_violin1",
+        "flagged": false,
+        "longest_match_tokens": 9,
+        "min_window_song_count": 1,
+        "n_rare_windows": 2,
+        "n_tokens": 183,
+        "part": "violin"
+      }
+    ],
+    "passed": true,
+    "rule": "match_length >= N AND at least one rare window (corpus songs containing the window <= k)",
+    "screener": "scripts/screen_similarity.py (PUB1)",
+    "thresholds": {
+      "max_songs_k": 3,
+      "n_tokens": {
+        "backing": 8,
+        "bass": 19,
+        "classical_cello": 23,
+        "classical_piano": 8,
+        "classical_viola": 17,
+        "classical_violin1": 12,
+        "classical_violin2": 17,
+        "lead": 16
+      },
+      "source": "similarity_threshold.md",
+      "window_n": {
+        "backing": 4,
+        "bass": 8,
+        "classical_cello": 8,
+        "classical_piano": 4,
+        "classical_viola": 8,
+        "classical_violin1": 8,
+        "classical_violin2": 8,
+        "lead": 8
+      }
+    }
+  },
+  "section_length": 8,
+  "seed": 4401,
+  "tonic": "D",
+  "track_id": "classical_duo_4401",
+  "versions": [
+    "main"
+  ]
+}

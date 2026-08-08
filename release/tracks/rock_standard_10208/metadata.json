@@ -1,0 +1,124 @@
+{
+  "attribution": [
+    {
+      "component": "drum model training data",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "Groove MIDI Dataset (GMD)"
+    }
+  ],
+  "bpm": 104.0,
+  "category": "rock_standard",
+  "declared_progression": null,
+  "duration_seconds": 120.0,
+  "engine_commit": "18f1ca2+dirty",
+  "files": [
+    {
+      "bytes": 15805,
+      "format": "midi",
+      "name": "rock_standard_10208.mid",
+      "role": "main",
+      "sha256": "9e0f1ba4c2ab9ece0c42c5222456e3f50ee065fe00443c31afc2915a4b6f180a"
+    },
+    {
+      "bytes": 2690515,
+      "format": "mp3",
+      "name": "rock_standard_10208.mp3",
+      "purpose": "preview",
+      "role": "main",
+      "sha256": "752ec31f65beefc854ea6908feb78c1e7b776bab96493803636db85e945d51a9"
+    },
+    {
+      "bytes": 22657580,
+      "format": "wav",
+      "name": "rock_standard_10208.wav",
+      "role": "main",
+      "sha256": "56b6cbe3d9f41495586cdd94ea42b7afca302f0f46d593967338a0497c739d38"
+    }
+  ],
+  "form": "standard",
+  "generated_date": "2026-08-04",
+  "intro_variant": "a",
+  "lead_overrides": null,
+  "license": {
+    "generated_content": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "mode": "minor",
+  "modulation_semitones": 0,
+  "n_measures": 52,
+  "preset": "standard",
+  "screening": {
+    "parts": [
+      {
+        "family": "backing",
+        "flagged": false,
+        "longest_match_tokens": 7,
+        "min_window_song_count": 1,
+        "n_rare_windows": 4,
+        "n_tokens": 130,
+        "part": "backing_guitar"
+      },
+      {
+        "family": "bass",
+        "flagged": false,
+        "longest_match_tokens": 14,
+        "min_window_song_count": 14,
+        "n_rare_windows": 0,
+        "n_tokens": 230,
+        "part": "bass"
+      },
+      {
+        "family": "backing",
+        "flagged": false,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 49,
+        "part": "keyboard"
+      },
+      {
+        "family": "lead",
+        "flagged": false,
+        "longest_match_tokens": 10,
+        "min_window_song_count": 3,
+        "n_rare_windows": 3,
+        "n_tokens": 146,
+        "part": "lead"
+      }
+    ],
+    "passed": true,
+    "rule": "match_length >= N AND at least one rare window (corpus songs containing the window <= k)",
+    "screener": "scripts/screen_similarity.py (PUB1)",
+    "thresholds": {
+      "max_songs_k": 3,
+      "n_tokens": {
+        "backing": 8,
+        "bass": 19,
+        "classical_cello": 23,
+        "classical_piano": 8,
+        "classical_viola": 17,
+        "classical_violin1": 12,
+        "classical_violin2": 17,
+        "lead": 16
+      },
+      "source": "similarity_threshold.md",
+      "window_n": {
+        "backing": 4,
+        "bass": 8,
+        "classical_cello": 8,
+        "classical_piano": 4,
+        "classical_viola": 8,
+        "classical_violin1": 8,
+        "classical_violin2": 8,
+        "lead": 8
+      }
+    }
+  },
+  "seed": 10208,
+  "track_id": "rock_standard_10208",
+  "transpose_semitones": 4,
+  "versions": [
+    "main"
+  ]
+}

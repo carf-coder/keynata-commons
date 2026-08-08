@@ -1,0 +1,850 @@
+/* ============================================================
+   Keynata Commons — 公開音源ライブラリ
+   Keynata(piano-typing-game/style.css)の材質パレットと組版文法を継承する。
+   舞台=黒檀、文字=象牙、真鍮=見出しの罫、フェルト赤=「いま鳴っている」印。
+   ゲーム固有の機能色(青=次に押す/琥珀=押鍵中)はここでは意味を持たないため持ち込まない。
+   ============================================================ */
+
+/* 書体はindex.htmlの<link>で読み込む(@importは直列読み込みで表示が遅れるため) */
+
+:root {
+  /* 素材: 黒檀・象牙・フェルト・真鍮(Keynata style.css:10-39 と同値) */
+  --ebony-deep: #120e0b;
+  --ebony: #1c1613;
+  --ebony-raised: #272019;
+  --lacquer-line: #3b3128;
+  --ivory: #f2ead9;
+  --ivory-dim: #a89a85;
+  --felt: #c2483f;
+  --felt-deep: #96352e;
+  --brass: #c9a96a;
+
+  --key-text: #d8cdba;
+  --accent: var(--ivory-dim);
+  --white: var(--ivory);
+
+  --font-display: "Bodoni Moda", "Zen Old Mincho", "Hiragino Mincho ProN", serif;
+  --font-body: "IBM Plex Sans", "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", sans-serif;
+  --font-mono: "SF Mono", "Menlo", "Osaka-Mono", monospace;
+
+  /* ライブラリ側で追加する寸法トークン(Keynataの実測値: 角丸12/8、面幅1180pxに合わせる) */
+  --page-width: 1180px;
+  --radius-panel: 12px;
+  --radius-control: 8px;
+  --radius-pill: 999px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 28px 24px 48px;
+  background:
+    radial-gradient(1200px 480px at 50% -160px, #241c15 0%, rgba(36, 28, 21, 0) 70%),
+    var(--ebony-deep);
+  color: var(--ivory);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+main,
+.page {
+  max-width: var(--page-width);
+  margin: 0 auto;
+}
+
+a {
+  color: var(--brass);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--ivory);
+}
+
+:focus-visible {
+  outline: 2px solid var(--felt);
+  outline-offset: 2px;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--ebony-raised);
+  border: 1px solid var(--brass);
+  border-radius: var(--radius-control);
+  padding: 10px 16px;
+  z-index: 20;
+}
+
+.skip-link:focus {
+  left: 24px;
+  top: 12px;
+}
+
+/* --- 演奏会プログラム風ヘッダ(Keynataの.mastheadを継承) ------------------ */
+
+/* 広い画面: 姉妹サービス導線を右上に置く(Keynataで言語切替が座っていた位置) */
+.masthead {
+  max-width: var(--page-width);
+  margin: 0 auto 26px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "eyebrow  sibling"
+    "title    sibling"
+    "rule     rule"
+    "subtitle subtitle";
+  align-items: center;
+  column-gap: 16px;
+}
+
+.masthead .eyebrow { grid-area: eyebrow; margin-bottom: 6px; }
+.masthead h1 { grid-area: title; }
+.masthead .rule { grid-area: rule; }
+.masthead .subtitle { grid-area: subtitle; }
+
+.sibling-link {
+  grid-area: sibling;
+  justify-self: end;
+  align-self: start;
+}
+
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--brass);
+}
+
+/* Keynataの言語切替ボタンと同じ枠・同じ真鍮の縁取りで系列を示す */
+.sibling-link {
+  flex-shrink: 0;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  padding: 7px 14px;
+  min-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--lacquer-line);
+  border-radius: var(--radius-control);
+  background: var(--ebony-raised);
+  color: var(--ivory);
+  text-decoration: none;
+}
+
+.sibling-link:hover {
+  border-color: var(--brass);
+  color: var(--brass);
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 44px;
+  letter-spacing: 0.08em;
+  line-height: 1.15;
+  margin: 0 0 10px 0;
+}
+
+.rule {
+  height: 1px;
+  background: linear-gradient(to right, var(--brass) 0%, rgba(201, 169, 106, 0.15) 60%, transparent 100%);
+  margin: 0 0 10px;
+}
+
+.subtitle {
+  color: var(--ivory-dim);
+  font-size: 15px;
+  margin: 0;
+}
+
+/* --- アンカーナビ -------------------------------------------------------- */
+
+.anchor-nav {
+  max-width: var(--page-width);
+  margin: 0 auto 22px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+}
+
+.anchor-nav a {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ivory-dim);
+  text-decoration: none;
+  padding: 8px 12px;
+  min-height: 34px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-control);
+}
+
+.anchor-nav a:hover {
+  color: var(--ivory);
+  background: rgba(242, 234, 217, 0.05);
+}
+
+/* --- ヒーロー ------------------------------------------------------------ */
+
+.hero {
+  margin: 0 auto 24px;
+  padding: 6px 0 0;
+}
+
+.hero-lede {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  margin: 0 0 10px;
+  max-width: 22em;
+}
+
+/* CC0だけをフェルト赤で立てる。ページ内で赤が意味を持つのは「再生中」とこの一語だけ */
+.hero-mark {
+  color: var(--felt);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.hero-body {
+  color: var(--ivory-dim);
+  font-size: 15px;
+  margin: 0 0 20px;
+  max-width: 44em;
+}
+
+.hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 40px;
+  margin: 0;
+  padding: 14px 0 0;
+  border-top: 1px solid var(--lacquer-line);
+}
+
+.hero-stat dt {
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ivory-dim);
+  margin-bottom: 2px;
+}
+
+.hero-stat dd {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* --- パネル(Keynataの.panelを継承) ------------------------------------- */
+
+.panel {
+  max-width: var(--page-width);
+  margin: 0 auto 18px;
+  background: var(--ebony);
+  border: 1px solid rgba(59, 49, 40, 0.8);
+  border-radius: var(--radius-panel);
+  padding: 18px 22px;
+  scroll-margin-top: 16px;
+}
+
+.panel-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+/* 小さな見出しは本文書体で組む(ディドー系は小サイズで細線が消える。Keynataと同じ判断) */
+.panel-title {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ivory);
+  margin: 0 0 12px;
+}
+
+.panel-head .panel-title {
+  margin: 0;
+}
+
+/* --- カテゴリフィルタ(Keynataの.lang-button文法を継承) ------------------ */
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filter-button {
+  font-family: var(--font-body);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  padding: 6px 14px;
+  min-height: 34px;
+  border: 1px solid var(--lacquer-line);
+  border-radius: var(--radius-pill);
+  background: var(--ebony-raised);
+  color: var(--ivory);
+  cursor: pointer;
+}
+
+.filter-button:hover {
+  border-color: var(--brass);
+}
+
+.filter-button.is-current {
+  background: rgba(201, 169, 106, 0.16);
+  border-color: var(--brass);
+  color: var(--brass);
+  cursor: default;
+}
+
+.filter-button .count {
+  color: var(--ivory-dim);
+  font-variant-numeric: tabular-nums;
+  margin-left: 6px;
+}
+
+.filter-button.is-current .count {
+  color: inherit;
+}
+
+/* --- トラック一覧 -------------------------------------------------------- */
+
+.list-status {
+  color: var(--ivory-dim);
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+
+.list-status[hidden] {
+  display: none;
+}
+
+.track-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--lacquer-line);
+}
+
+/* カテゴリの区切り(全件表示のときだけ出る)。演奏会プログラムの部立てにあたる */
+.group-head {
+  padding: 22px 12px 8px 14px;
+}
+
+.track-list .group-head:first-child {
+  padding-top: 12px;
+}
+
+/* 1行=1作品(1シード)。プログラムの一行として組む */
+.track {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    "play title actions"
+    "play meta  actions";
+  column-gap: 16px;
+  row-gap: 4px;
+  align-items: center;
+  padding: 14px 12px 14px 14px;
+  border-bottom: 1px solid var(--lacquer-line);
+}
+
+/* 2版ある作品(カラオケのガイド/カラオケ)は、題と諸元を共有して版を積む */
+.track.is-multi {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas:
+    "title"
+    "meta"
+    "versions";
+  row-gap: 8px;
+  align-items: start;
+}
+
+.versions {
+  grid-area: versions;
+  list-style: none;
+  margin: 2px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rendition {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 14px;
+  row-gap: 8px;
+  padding: 8px 12px 8px 14px;
+  border: 1px solid var(--lacquer-line);
+  border-radius: var(--radius-control);
+  background: rgba(242, 234, 217, 0.02);
+}
+
+.rendition.is-playing {
+  border-color: var(--felt-deep);
+  background: rgba(194, 72, 63, 0.09);
+}
+
+/* 版ごとの再生線も本体と同じフェルト赤 */
+.rendition::before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  bottom: -1px;
+  width: 3px;
+  border-radius: 3px 0 0 3px;
+  background: transparent;
+}
+
+.rendition.is-playing::before {
+  background: var(--felt);
+  box-shadow: 0 0 10px 1px rgba(194, 72, 63, 0.55);
+}
+
+.version-name {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ivory-dim);
+}
+
+.rendition.is-playing .version-name {
+  color: var(--ivory);
+}
+
+/* J4a 2版の説明書き。ラベルの隣に小さく・大文字化しない */
+.version-gloss {
+  font-size: 12px;
+  color: var(--ivory-dim);
+  opacity: 0.75;
+  margin-left: 10px;
+}
+
+.track:hover {
+  background: rgba(242, 234, 217, 0.03);
+}
+
+/* 再生中の印: 舞台の再生線(Keynataの.guide-playline)と同じ3pxのフェルト赤 */
+.track::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  bottom: -1px;
+  width: 3px;
+  background: transparent;
+}
+
+.track.is-playing {
+  background: rgba(194, 72, 63, 0.07);
+}
+
+.track.is-playing::before {
+  background: var(--felt);
+  box-shadow: 0 0 10px 1px rgba(194, 72, 63, 0.55);
+}
+
+/* 領域名は .track の直下だけに効かせる(版の行は .rendition 側のグリッドで組む) */
+.track > .track-play { grid-area: play; }
+.track > .track-actions { grid-area: actions; }
+
+.track-play {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border: 1px solid var(--lacquer-line);
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #2c251d 0%, var(--ebony-raised) 100%);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.track-play:hover {
+  border-color: var(--felt);
+}
+
+/* 再生/停止アイコンはCSSのみで描く(絵文字・アイコンフォントは使わない) */
+.track-play .glyph {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-left: 3px;
+  border-left: 12px solid var(--ivory);
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+}
+
+/* 丸い再生ボタンはMP3の入口。合成(.via-synth)で鳴っている行では、
+   停止ボタンの見た目にしない(押すとMP3へ切り替わるのが正しいため) */
+.track.is-playing:not(.via-synth) > .track-play,
+.rendition.is-playing:not(.via-synth) .track-play {
+  border-color: var(--felt);
+  background: linear-gradient(to bottom, var(--felt), var(--felt-deep));
+  box-shadow: none;
+}
+
+.track.is-playing:not(.via-synth) > .track-play .glyph,
+.rendition.is-playing:not(.via-synth) .track-play .glyph {
+  width: 12px;
+  height: 13px;
+  margin-left: 0;
+  border: 0;
+  border-left: 4px solid var(--ivory);
+  border-right: 4px solid var(--ivory);
+  background: transparent;
+}
+
+.track-title {
+  grid-area: title;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 10px;
+  min-width: 0;
+}
+
+.track-name {
+  font-family: var(--font-display);
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.track.is-playing .track-name {
+  color: var(--ivory);
+}
+
+.track-meta {
+  grid-area: meta;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  font-size: 12px;
+  color: var(--ivory-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.track-meta .meta-key {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+
+.track-meta .meta-value {
+  color: var(--key-text);
+}
+
+.track-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-self: end;
+}
+
+.dl {
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color: var(--ivory);
+  border: 1px solid var(--lacquer-line);
+  border-radius: var(--radius-control);
+  padding: 7px 12px;
+  min-height: 36px;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.dl:hover {
+  border-color: var(--brass);
+  color: var(--brass);
+}
+
+.dl .size {
+  font-size: 11px;
+  color: var(--ivory-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.dl:hover .size {
+  color: inherit;
+}
+
+/* ブラウザ内合成の呼び出し。DLと同じ枠で、主役はあくまでMP3の試聴ボタンに残す。
+   押されている間だけ真鍮ではなくフェルトの縁で「鳴っている」ことを示す。 */
+.dl-synth {
+  font-family: var(--font-body);
+  background: var(--ebony-raised);
+  cursor: pointer;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.dl-synth:hover {
+  border-color: var(--brass);
+  color: var(--brass);
+}
+
+.dl-synth.is-active {
+  border-color: var(--felt);
+  color: var(--ivory);
+  background: rgba(194, 72, 63, 0.16);
+}
+
+/* 楽器の初回読み込み。再生位置バーと同じ高さ・同じフェルトのグラデーションで、
+   「進んでいる」の語彙を一つに保つ */
+.synth-load {
+  grid-column: 1 / -1;
+  margin-top: 10px;
+}
+
+.synth-load[hidden] {
+  display: none;
+}
+
+.synth-load-label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ivory-dim);
+  margin-bottom: 6px;
+}
+
+.synth-load-bar {
+  height: 3px;
+  border-radius: 2px;
+  background: var(--lacquer-line);
+  overflow: hidden;
+}
+
+.synth-load-bar span {
+  display: block;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(to right, var(--felt-deep), var(--felt));
+}
+
+/* 再生位置(Keynataの#progress-bar-innerと同じフェルトのグラデーション) */
+.track-progress {
+  grid-column: 1 / -1;
+  height: 3px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: var(--lacquer-line);
+  overflow: hidden;
+  display: none;
+}
+
+.track.is-playing > .track-progress,
+.rendition.is-playing > .track-progress {
+  display: block;
+}
+
+.track-progress span {
+  display: block;
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(to right, var(--felt-deep), var(--felt));
+}
+
+.list-note {
+  font-size: 12px;
+  color: var(--ivory-dim);
+  margin: 14px 0 0;
+}
+
+/* --- 本文セクション ------------------------------------------------------ */
+
+.prose p {
+  margin: 0 0 12px;
+  max-width: 74ch;
+  color: var(--key-text);
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.prose .lead {
+  color: var(--ivory);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.process-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+
+/* 4項目は手順なので番号が情報を担う。真鍮の番号を本文の外に置く */
+.process-list li {
+  counter-increment: step;
+  position: relative;
+  padding: 0 0 0 44px;
+  margin-bottom: 16px;
+}
+
+.process-list li:last-child {
+  margin-bottom: 0;
+}
+
+.process-list li::before {
+  content: counter(step, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 1px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--brass);
+  letter-spacing: 0.06em;
+}
+
+.process-list h3 {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin: 0 0 4px;
+  color: var(--ivory);
+}
+
+/* --- フッター ------------------------------------------------------------ */
+
+.page-footer {
+  max-width: var(--page-width);
+  margin: 28px auto 0;
+  padding-top: 4px;
+}
+
+.notice {
+  font-size: 12px;
+  color: var(--ivory-dim);
+  line-height: 1.7;
+  margin: 10px 0 0;
+}
+
+.notice strong {
+  color: var(--ivory);
+  font-weight: 600;
+}
+
+/* --- レスポンシブ -------------------------------------------------------- */
+
+@media (max-width: 860px) {
+  body {
+    padding: 20px 14px 40px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .hero-lede {
+    font-size: 24px;
+  }
+
+  /* 狭幅では姉妹サービス導線をタグラインの下へ落とす(表題の上に浮かせない) */
+  .masthead {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "eyebrow"
+      "title"
+      "rule"
+      "subtitle"
+      "sibling";
+  }
+
+  .sibling-link {
+    justify-self: start;
+    margin-top: 14px;
+  }
+
+  /* 狭幅では1カラム: 再生ボタンと曲名を上段に、メタとDLを下段に積む */
+  .track {
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas:
+      "play title"
+      "meta meta"
+      "actions actions";
+    row-gap: 10px;
+    padding: 16px 10px;
+  }
+
+  .track.is-multi {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "title"
+      "meta"
+      "versions";
+  }
+
+  /* 版の行も縦積み: 再生ボタンと版名を上段、DLを下段に */
+  .rendition {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .rendition .track-actions {
+    grid-column: 1 / -1;
+  }
+
+  .track-actions {
+    justify-self: start;
+    flex-wrap: wrap;
+  }
+
+  .track-name {
+    font-size: 17px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

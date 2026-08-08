@@ -1,0 +1,152 @@
+{
+  "attribution": [
+    {
+      "component": "drum model training data",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "Groove MIDI Dataset (GMD)"
+    }
+  ],
+  "bpm": 152.0,
+  "category": "karaoke",
+  "declared_progression": "royal_road",
+  "duration_seconds": 151.579,
+  "engine_commit": "18f1ca2+dirty",
+  "files": [
+    {
+      "bytes": 24111,
+      "format": "midi",
+      "name": "karaoke_12274_guide.mid",
+      "role": "guide",
+      "sha256": "e1663575984387b556d784a417257e48f664836c75f1864c921d7c557a87481b"
+    },
+    {
+      "bytes": 3532249,
+      "format": "mp3",
+      "name": "karaoke_12274_guide.mp3",
+      "purpose": "preview",
+      "role": "guide",
+      "sha256": "95982cdb69de0d205a68d8bf0311e4bfa2aaa39f229b03bd502e4816f557d82b"
+    },
+    {
+      "bytes": 28338988,
+      "format": "wav",
+      "name": "karaoke_12274_guide.wav",
+      "role": "guide",
+      "sha256": "820d5ec9ec82d1a975e3d2edcbbddec0a5991079e77a5b14bfbb995dd3fb011a"
+    },
+    {
+      "bytes": 19603,
+      "format": "midi",
+      "name": "karaoke_12274_karaoke.mid",
+      "role": "karaoke",
+      "sha256": "e28bb454d2364aff5d0cead35e606c24bcd9b4da09b5772b5223ef5e3dfcfaf6"
+    },
+    {
+      "bytes": 3559789,
+      "format": "mp3",
+      "name": "karaoke_12274_karaoke.mp3",
+      "purpose": "preview",
+      "role": "karaoke",
+      "sha256": "cc4e2c8d56a699f5fbac922e3956ebbe7d513a635ac2acacfd9e126b6c9021f7"
+    },
+    {
+      "bytes": 28338988,
+      "format": "wav",
+      "name": "karaoke_12274_karaoke.wav",
+      "role": "karaoke",
+      "sha256": "45afb22d23a747f008076db56e3a9ef0f5279e2dd356b2309826f5865073ba52"
+    }
+  ],
+  "form": "jpop_full_karaoke",
+  "generated_date": "2026-08-04",
+  "intro_variant": "a",
+  "lead_overrides": {
+    "chorus_shift": 4,
+    "phrase_measures": 2,
+    "register_high": 71,
+    "register_low": 58
+  },
+  "license": {
+    "generated_content": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "mode": "major",
+  "modulation_semitones": 1,
+  "n_measures": 96,
+  "preset": "standard",
+  "screening": {
+    "parts": [
+      {
+        "family": "backing",
+        "flagged": false,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 0,
+        "part": "backing_guitar"
+      },
+      {
+        "family": "bass",
+        "flagged": false,
+        "longest_match_tokens": 18,
+        "min_window_song_count": 13,
+        "n_rare_windows": 0,
+        "n_tokens": 316,
+        "part": "bass"
+      },
+      {
+        "family": "backing",
+        "flagged": false,
+        "longest_match_tokens": 4,
+        "min_window_song_count": 6,
+        "n_rare_windows": 0,
+        "n_tokens": 262,
+        "part": "keyboard"
+      },
+      {
+        "family": "lead",
+        "flagged": false,
+        "longest_match_tokens": 11,
+        "min_window_song_count": 1,
+        "n_rare_windows": 4,
+        "n_tokens": 490,
+        "part": "lead"
+      }
+    ],
+    "passed": true,
+    "rule": "match_length >= N AND at least one rare window (corpus songs containing the window <= k)",
+    "screener": "scripts/screen_similarity.py (PUB1)",
+    "thresholds": {
+      "max_songs_k": 3,
+      "n_tokens": {
+        "backing": 8,
+        "bass": 19,
+        "classical_cello": 23,
+        "classical_piano": 8,
+        "classical_viola": 17,
+        "classical_violin1": 12,
+        "classical_violin2": 17,
+        "lead": 16
+      },
+      "source": "similarity_threshold.md",
+      "window_n": {
+        "backing": 4,
+        "bass": 8,
+        "classical_cello": 8,
+        "classical_piano": 4,
+        "classical_viola": 8,
+        "classical_violin1": 8,
+        "classical_violin2": 8,
+        "lead": 8
+      }
+    }
+  },
+  "seed": 12274,
+  "track_id": "karaoke_12274",
+  "transpose_semitones": 6,
+  "versions": [
+    "guide",
+    "karaoke"
+  ]
+}

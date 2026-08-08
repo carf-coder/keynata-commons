@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keynata Commons — public domain music, generated and screened</title>
+<meta name="description" content="A free library of machine-composed music dedicated to the public domain under CC0 1.0. WAV, MIDI and full generation metadata for every track.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Keynataと同じ読み込み方(@importではなくlink・display=swap)。ラテン書体のみ -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css?v=20260808a">
+</head>
+<body>
+
+<a class="skip-link" href="#library">Skip to the track list</a>
+
+<!-- 系列ヘッダ: Keynataのmasthead文法(eyebrow / h1 / rule / subtitle)をそのまま踏襲。
+     Keynataで言語切替が座っていた右上スロットに、姉妹サービスへの導線を置く。 -->
+<!-- masthead は CSS Grid の名前付き領域で組む。DOM順は据え置いたまま、
+     広い画面では姉妹サービス導線を右上に、狭い画面ではタグラインの下に落とす。 -->
+<header class="masthead">
+  <div class="eyebrow">Public domain music library</div>
+  <!-- TODO(PUB2): KeynataのURL確定後に href を差し替える -->
+  <a class="sibling-link" href="#" data-keynata-link>from the maker of Keynata</a>
+  <h1>Keynata Commons</h1>
+  <div class="rule"></div>
+  <p class="subtitle">Free music, made by machines, owned by no one.</p>
+</header>
+
+<nav class="anchor-nav" aria-label="Sections">
+  <a href="#library">Tracks</a>
+  <a href="#about">About</a>
+  <a href="#license">License</a>
+  <a href="#attribution">Attribution</a>
+  <a href="#process">How we keep it clean</a>
+</nav>
+
+<main class="page">
+
+  <!-- ヒーロー(文面: PUB2_site_copy_draft §1) -->
+  <section class="hero" aria-labelledby="hero-title">
+    <h2 id="hero-title" class="hero-lede">
+      Every track here is dedicated to the public domain under <span class="hero-mark">CC0</span>.
+    </h2>
+    <p class="hero-body">
+      Download, remix, release, sell — no credit required, no strings attached.
+    </p>
+    <dl class="hero-stats">
+      <div class="hero-stat">
+        <dt>Tracks</dt>
+        <dd id="stat-tracks" class="tabular">—</dd>
+      </div>
+      <div class="hero-stat">
+        <dt>License</dt>
+        <dd>CC0 1.0</dd>
+      </div>
+      <div class="hero-stat">
+        <dt>Formats</dt>
+        <dd>WAV · MIDI · JSON</dd>
+      </div>
+    </dl>
+  </section>
+
+  <!-- トラック一覧 -->
+  <section class="panel" id="library" aria-labelledby="library-title">
+    <div class="panel-head">
+      <h2 class="panel-title" id="library-title">Tracks</h2>
+      <div class="filter-bar" id="filter-bar" role="group" aria-label="Filter tracks by category"></div>
+    </div>
+
+    <p class="list-status" id="list-status" role="status">Loading the library…</p>
+
+    <ol class="track-list" id="track-list"></ol>
+
+    <p class="list-note">
+      Preview playback streams the MP3. <strong>Synth</strong> plays the MIDI file
+      through a synthesizer running in your browser — the first Synth press downloads
+      the instruments (about 35 MB, once per visit), after which every track starts
+      instantly. Downloads give you the full-quality WAV and the MIDI file.
+    </p>
+  </section>
+
+  <!-- About(文面: PUB2_site_copy_draft §2) -->
+  <section class="panel prose" id="about" aria-labelledby="about-title">
+    <h2 class="panel-title" id="about-title">About</h2>
+    <p>
+      Keynata Commons is the open music library from the maker of
+      <!-- TODO(PUB2): KeynataのURL確定後に href を差し替える -->
+      <a href="#" data-keynata-link>Keynata</a>, the piano typing game. All tracks are
+      composed by a rule-and-statistics music engine built from scratch — no neural
+      networks, no training on copyrighted recordings. The engine learns broad stylistic
+      statistics from public-domain scores and openly licensed data, writes music theory
+      into explicit, sourced rules, and generates every piece deterministically from a
+      random seed.
+    </p>
+    <p>
+      New tracks are added in batches. Each release includes WAV audio, the MIDI file,
+      and full generation metadata, so you can see exactly how each piece was made.
+    </p>
+  </section>
+
+  <!-- License(文面: PUB2_site_copy_draft §3) -->
+  <section class="panel prose" id="license" aria-labelledby="license-title">
+    <h2 class="panel-title" id="license-title">License</h2>
+    <p class="lead">Everything here is CC0 1.0 — a public domain dedication.</p>
+    <p>
+      Copy, modify, distribute, and perform the tracks, even commercially, without
+      asking permission or giving credit. Attribution is appreciated but never required.
+      Read the full dedication at
+      <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="noopener">creativecommons.org/publicdomain/zero/1.0/</a>.
+    </p>
+  </section>
+
+  <!-- Attribution(文面: PUB2_site_copy_draft §4) -->
+  <section class="panel prose" id="attribution" aria-labelledby="attribution-title">
+    <h2 class="panel-title" id="attribution-title">Attribution</h2>
+    <p>
+      The drum engine was trained on the
+      <a href="https://magenta.withgoogle.com/datasets/groove" rel="noopener">Groove MIDI Dataset</a>
+      (Magenta, Google), licensed under
+      <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener">CC BY 4.0</a>.
+      Melodic and harmonic engines use only public-domain scores (original works from the
+      PDMX dataset) and music theory written down from published, cited sources.
+      This attribution is ours to make — it does not restrict your use of the tracks.
+    </p>
+    <p>
+      Audio rendering and in-browser playback use redistributed third-party
+      components: the SpessaSynth synthesis library (Apache 2.0) and two instrument
+      banks — GeneralUser GS by S. Christian Collins and the public-domain 040
+      Florestan String Quartet. Their licenses are reproduced in full in
+      <a href="LICENSE-3RD-PARTY.md">LICENSE-3RD-PARTY.md</a>. None of them place
+      any condition on your use of the tracks.
+    </p>
+  </section>
+
+  <!-- How we keep it clean(文面: PUB2_site_copy_draft §5)。
+       4項目は「入口→検査→設計→限界」の順序が意味を持つ手順なので番号付きで組む。 -->
+  <section class="panel prose" id="process" aria-labelledby="process-title">
+    <h2 class="panel-title" id="process-title">How we keep it clean</h2>
+    <ol class="process-list">
+      <li>
+        <h3>No copyrighted works go in.</h3>
+        <p>
+          Style rules come from music theory and published common knowledge, each with a
+          written source, kept in an audited ledger. Statistical models use only
+          public-domain original scores and CC-licensed data.
+        </p>
+      </li>
+      <li>
+        <h3>Similarity screening before release.</h3>
+        <p>
+          Every track is checked against the training corpus for distinctive matching
+          passages. Tracks that share any rare passage with a specific corpus piece are
+          rejected and never published.
+        </p>
+      </li>
+      <li>
+        <h3>No imitation objective.</h3>
+        <p>
+          The engine has no mechanism that targets any specific song or artist.
+        </p>
+      </li>
+      <li>
+        <h3>Honest limits.</h3>
+        <p>
+          Coincidental resemblance to some existing melody can never be ruled out
+          completely; screening reduces the risk, it does not eliminate it. This page
+          describes our process and is not legal advice.
+        </p>
+      </li>
+      <li>
+        <h3>Takedown policy.</h3>
+        <p>
+          If you believe a track reproduces protected material despite the process
+          above, open an issue on the GitHub repository with the track ID and the
+          work you believe is affected. We will investigate and remove the track
+          while the question is open. Removed tracks stay removed.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+</main>
+
+<!-- フッター(文面: PUB2_site_copy_draft §6) -->
+<footer class="page-footer">
+  <div class="rule"></div>
+  <p class="notice">
+    <strong>Keynata Commons</strong> — a sibling of
+    <!-- TODO(PUB2): KeynataのURL確定後に href を差し替える -->
+    <a href="#" data-keynata-link>Keynata</a>.
+    Engine version <span class="mono" id="footer-engine">—</span>.
+    Tracks are generated locally and screened before every release.
+    Visits are counted anonymously by
+    <a href="https://www.goatcounter.com/" rel="noopener">GoatCounter</a>
+    — no cookies, no personal data.
+  </p>
+</footer>
+
+<script src="app.js?v=20260808a"></script>
+<!-- 訪問数計測(GoatCounter・匿名/クッキーなし)。async読みで、落ちてもサイト機能に影響しない。
+     サイトコード keynata-commons はGoatCounter側でユーザーが登録する(未登録の間は404を返すだけで無害) -->
+<script data-goatcounter="https://keynata-commons.goatcounter.com/count"
+        async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

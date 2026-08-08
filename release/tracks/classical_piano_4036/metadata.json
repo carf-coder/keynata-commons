@@ -1,0 +1,109 @@
+{
+  "accompaniment_type": "alberti",
+  "attribution": [
+    {
+      "component": "piano melody model training data",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "PDMX (Public Domain MusicXML)"
+    },
+    {
+      "component": "piano melody model training data",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "note": "CC0 requires no attribution; the source is stated for transparency.",
+      "source": "OpenScore Lieder"
+    }
+  ],
+  "bpm": 139.0,
+  "category": "classical_piano",
+  "declared_progression": null,
+  "duration_seconds": 27.626,
+  "engine_commit": "18f1ca2+dirty",
+  "files": [
+    {
+      "bytes": 2263,
+      "format": "midi",
+      "name": "classical_piano_4036.mid",
+      "role": "main",
+      "sha256": "bab52303a397e11c17e86356e266b0ace9b92f1da7874a4036730a8c6ad4f135"
+    },
+    {
+      "bytes": 674075,
+      "format": "mp3",
+      "name": "classical_piano_4036.mp3",
+      "purpose": "preview",
+      "role": "main",
+      "sha256": "6bafa46cc0c92853bbb77e5787da902075a90d5dc766faa4f91d8a1df04b3847"
+    },
+    {
+      "bytes": 5422892,
+      "format": "wav",
+      "name": "classical_piano_4036.wav",
+      "role": "main",
+      "sha256": "400d2bd0f7a13aa6fcb99013c550f39ffcbc48b5bb46e75e0b261e3806e0b027"
+    }
+  ],
+  "form": "AB",
+  "generated_date": "2026-08-04",
+  "instrumentation": [
+    "piano"
+  ],
+  "length_tier": "短",
+  "license": {
+    "generated_content": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "meter_beats": 4,
+  "mode": "major",
+  "modulation_semitones": 0,
+  "n_measures": 16,
+  "preset": "明るい",
+  "screening": {
+    "parts": [
+      {
+        "family": "classical_piano",
+        "flagged": false,
+        "longest_match_tokens": 6,
+        "min_window_song_count": 1,
+        "n_rare_windows": 2,
+        "n_tokens": 110,
+        "part": "piano"
+      }
+    ],
+    "passed": true,
+    "rule": "match_length >= N AND at least one rare window (corpus songs containing the window <= k)",
+    "screener": "scripts/screen_similarity.py (PUB1)",
+    "thresholds": {
+      "max_songs_k": 3,
+      "n_tokens": {
+        "backing": 8,
+        "bass": 19,
+        "classical_cello": 23,
+        "classical_piano": 8,
+        "classical_viola": 17,
+        "classical_violin1": 12,
+        "classical_violin2": 17,
+        "lead": 16
+      },
+      "source": "similarity_threshold.md",
+      "window_n": {
+        "backing": 4,
+        "bass": 8,
+        "classical_cello": 8,
+        "classical_piano": 4,
+        "classical_viola": 8,
+        "classical_violin1": 8,
+        "classical_violin2": 8,
+        "lead": 8
+      }
+    }
+  },
+  "section_length": 8,
+  "seed": 4036,
+  "tonic": "C",
+  "track_id": "classical_piano_4036",
+  "versions": [
+    "main"
+  ]
+}
