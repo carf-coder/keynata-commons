@@ -27,13 +27,6 @@
       "purpose": "preview",
       "role": "main",
       "sha256": "fd8ad5948204d2202ee6034ccb2d2c0e0659b800210ce28cb9761e97c860ad5d"
-    },
-    {
-      "bytes": 32863020,
-      "format": "wav",
-      "name": "jpop_3piece_11004.wav",
-      "role": "main",
-      "sha256": "c514a07d542f40ad7a8f881e8eeebd323849b7cdf149474efd27350513c6f23d"
     }
   ],
   "form": "jpop_full_3piece",

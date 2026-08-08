@@ -27,13 +27,6 @@
       "purpose": "preview",
       "role": "main",
       "sha256": "253d197380321853d2e6dd15e360d8aaf55f268afb9b3ba6112048db3e00a2cb"
-    },
-    {
-      "bytes": 25768236,
-      "format": "wav",
-      "name": "rock_standard_10022.wav",
-      "role": "main",
-      "sha256": "ec7b88801084609bab620264a8c3286edd00a9a5fd4eefbc5b19d87c5bfc4156"
     }
   ],
   "form": "standard",

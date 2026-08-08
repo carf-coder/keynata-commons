@@ -35,13 +35,6 @@
       "purpose": "preview",
       "role": "main",
       "sha256": "8f6a44880d596c4c7a2e7a2284bf3e175a88f3aa3d03be82194078444694bcd6"
-    },
-    {
-      "bytes": 28787500,
-      "format": "wav",
-      "name": "classical_piano_6134.wav",
-      "role": "main",
-      "sha256": "02db1f5085574fae65c6362ccdab64b82f0670052f45015ce047a71e5ef14827"
     }
   ],
   "form": "RONDO5",

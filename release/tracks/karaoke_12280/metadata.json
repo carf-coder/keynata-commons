@@ -29,13 +29,6 @@
       "sha256": "c35fd40da635c84d87ac27484a95cfe42ac8a6ee587fbaae3329bd7783df7978"
     },
     {
-      "bytes": 28374316,
-      "format": "wav",
-      "name": "karaoke_12280_guide.wav",
-      "role": "guide",
-      "sha256": "3db2c822295df9a381b87eb1a3fa244e77498d8412323129d0878bde472b9a82"
-    },
-    {
       "bytes": 22585,
       "format": "midi",
       "name": "karaoke_12280_karaoke.mid",
@@ -49,13 +42,6 @@
       "purpose": "preview",
       "role": "karaoke",
       "sha256": "cbe3561986e386d8c24b236aca3a581ed20033d031823ea1f0a21d00eb145c9c"
-    },
-    {
-      "bytes": 28374316,
-      "format": "wav",
-      "name": "karaoke_12280_karaoke.wav",
-      "role": "karaoke",
-      "sha256": "e426719cf5a3bf665973347ebea8ebaac14036bab22b25b1134a726972035dfe"
     }
   ],
   "form": "jpop_full_karaoke",

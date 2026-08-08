@@ -29,13 +29,6 @@
       "purpose": "preview",
       "role": "main",
       "sha256": "32f9166ea24c69b4369144e7fdd42237ba1a94b68ad96e6b1c670eecdb5aed80"
-    },
-    {
-      "bytes": 12019756,
-      "format": "wav",
-      "name": "classical_duo_4405.wav",
-      "role": "main",
-      "sha256": "43fd52f06cf96e5d04e12a16d12e48c08127b3a78b0916648be1a0aad97a54d2"
     }
   ],
   "form": "ABA",

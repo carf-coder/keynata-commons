@@ -35,13 +35,6 @@
       "purpose": "preview",
       "role": "main",
       "sha256": "fcfc7317ad13da32851645d988c5169dd4b556f5ea7dca76f7057d764a2d3078"
-    },
-    {
-      "bytes": 5783340,
-      "format": "wav",
-      "name": "classical_piano_5311.wav",
-      "role": "main",
-      "sha256": "089c011564fc994e315bfa8e2ed26ff98b61e617543c3ae84f169ae5f3e40e3e"
     }
   ],
   "form": "AB",

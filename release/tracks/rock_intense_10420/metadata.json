@@ -27,13 +27,6 @@
       "purpose": "preview",
       "role": "main",
       "sha256": "15d4847d067de2bbb204ebf39af5953c7168e2b359af8be366e43d07d78bb577"
-    },
-    {
-      "bytes": 15485484,
-      "format": "wav",
-      "name": "rock_intense_10420.wav",
-      "role": "main",
-      "sha256": "498a9dd88e7b6458b6851107d6eacf4d20f7a798aedea85731a19cc94449f149"
     }
   ],
   "form": "standard",

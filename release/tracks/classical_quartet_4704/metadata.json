@@ -29,13 +29,6 @@
       "purpose": "preview",
       "role": "main",
       "sha256": "10f1977b0bce0948745c594f698709fcd486bcd2b88609cf420be2b6cf783c67"
-    },
-    {
-      "bytes": 15011372,
-      "format": "wav",
-      "name": "classical_quartet_4704.wav",
-      "role": "main",
-      "sha256": "1987cb5284718adc5bf81275086d50d0f6728bd925c50e02cba17c68e28b36cd"
     }
   ],
   "form": "RONDO5",

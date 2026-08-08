@@ -29,13 +29,6 @@
       "purpose": "preview",
       "role": "main",
       "sha256": "f78cfc15e2acd5665bfc7be1ba22b11d9d223d0f7d99072985f55a8b459c01cf"
-    },
-    {
-      "bytes": 15572012,
-      "format": "wav",
-      "name": "classical_quartet_4801.wav",
-      "role": "main",
-      "sha256": "ebbebaf3a3d4ab82f1c9762b1bdd46cf22fca081059f626a3dcc508b2e018243"
     }
   ],
   "form": "SONATINA",

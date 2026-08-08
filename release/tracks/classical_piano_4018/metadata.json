@@ -35,13 +35,6 @@
       "purpose": "preview",
       "role": "main",
       "sha256": "cd96f8e783d8520e419fce4b03670b56980f5cabdbfa59da0ffb562cd94acbd2"
-    },
-    {
-      "bytes": 5968172,
-      "format": "wav",
-      "name": "classical_piano_4018.wav",
-      "role": "main",
-      "sha256": "e6408b0eb87418d07b7792c2ab644998b6f56d521185a1f1f89f0403caff84c7"
     }
   ],
   "form": "AB",

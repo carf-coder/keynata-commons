@@ -29,13 +29,6 @@
       "purpose": "preview",
       "role": "main",
       "sha256": "3add0f8fb2fdaec7d4cbf5626a243f4c5c94414b995b292b5d1ecc91c3f7b041"
-    },
-    {
-      "bytes": 23988524,
-      "format": "wav",
-      "name": "classical_duo_4504.wav",
-      "role": "main",
-      "sha256": "ae87ccb2782bd998474b82e467158507e5c4ad0eeafb28b55fce5f2f358b7d3e"
     }
   ],
   "form": "RONDO5",

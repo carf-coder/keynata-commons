@@ -32,8 +32,37 @@
     "generated_content": "CC0-1.0",
     "url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
-  "n_tracks": 99,
+  "n_tracks": 102,
   "tracks": [
+    {
+      "bpm": 123.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 46.829,
+      "engine_commit": "18f1ca2+dirty",
+      "files": [
+        "classical_duo_24000.mid",
+        "classical_duo_24000.mp3"
+      ],
+      "form": "ABA",
+      "generated_date": "2026-08-08",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 24000,
+      "tonic": "C",
+      "track_id": "classical_duo_24000",
+      "versions": [
+        "main"
+      ]
+    },
     {
       "bpm": 80.0,
       "category": "classical_duo",
@@ -42,8 +71,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_duo_4401.mid",
-        "classical_duo_4401.mp3",
-        "classical_duo_4401.wav"
+        "classical_duo_4401.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -72,8 +100,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_duo_4402.mid",
-        "classical_duo_4402.mp3",
-        "classical_duo_4402.wav"
+        "classical_duo_4402.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -102,8 +129,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_duo_4403.mid",
-        "classical_duo_4403.mp3",
-        "classical_duo_4403.wav"
+        "classical_duo_4403.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -132,8 +158,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_duo_4404.mid",
-        "classical_duo_4404.mp3",
-        "classical_duo_4404.wav"
+        "classical_duo_4404.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -162,8 +187,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_duo_4405.mid",
-        "classical_duo_4405.mp3",
-        "classical_duo_4405.wav"
+        "classical_duo_4405.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -192,8 +216,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_duo_4501.mid",
-        "classical_duo_4501.mp3",
-        "classical_duo_4501.wav"
+        "classical_duo_4501.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -222,8 +245,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_duo_4502.mid",
-        "classical_duo_4502.mp3",
-        "classical_duo_4502.wav"
+        "classical_duo_4502.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -252,8 +274,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_duo_4504.mid",
-        "classical_duo_4504.mp3",
-        "classical_duo_4504.wav"
+        "classical_duo_4504.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -282,8 +303,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_duo_4505.mid",
-        "classical_duo_4505.mp3",
-        "classical_duo_4505.wav"
+        "classical_duo_4505.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -312,8 +332,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_duo_4508.mid",
-        "classical_duo_4508.mp3",
-        "classical_duo_4508.wav"
+        "classical_duo_4508.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -342,8 +361,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_4001.mid",
-        "classical_piano_4001.mp3",
-        "classical_piano_4001.wav"
+        "classical_piano_4001.mp3"
       ],
       "form": "AB",
       "generated_date": "2026-08-04",
@@ -371,8 +389,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_4014.mid",
-        "classical_piano_4014.mp3",
-        "classical_piano_4014.wav"
+        "classical_piano_4014.mp3"
       ],
       "form": "AB",
       "generated_date": "2026-08-04",
@@ -400,8 +417,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_4016.mid",
-        "classical_piano_4016.mp3",
-        "classical_piano_4016.wav"
+        "classical_piano_4016.mp3"
       ],
       "form": "AB",
       "generated_date": "2026-08-04",
@@ -429,8 +445,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_4018.mid",
-        "classical_piano_4018.mp3",
-        "classical_piano_4018.wav"
+        "classical_piano_4018.mp3"
       ],
       "form": "AB",
       "generated_date": "2026-08-04",
@@ -458,8 +473,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_4036.mid",
-        "classical_piano_4036.mp3",
-        "classical_piano_4036.wav"
+        "classical_piano_4036.mp3"
       ],
       "form": "AB",
       "generated_date": "2026-08-04",
@@ -487,8 +501,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_4101.mid",
-        "classical_piano_4101.mp3",
-        "classical_piano_4101.wav"
+        "classical_piano_4101.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -516,8 +529,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_4104.mid",
-        "classical_piano_4104.mp3",
-        "classical_piano_4104.wav"
+        "classical_piano_4104.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -545,8 +557,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_4109.mid",
-        "classical_piano_4109.mp3",
-        "classical_piano_4109.wav"
+        "classical_piano_4109.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -574,8 +585,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_4121.mid",
-        "classical_piano_4121.mp3",
-        "classical_piano_4121.wav"
+        "classical_piano_4121.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -603,8 +613,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_4138.mid",
-        "classical_piano_4138.mp3",
-        "classical_piano_4138.wav"
+        "classical_piano_4138.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -632,8 +641,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_5301.mid",
-        "classical_piano_5301.mp3",
-        "classical_piano_5301.wav"
+        "classical_piano_5301.mp3"
       ],
       "form": "AB",
       "generated_date": "2026-08-04",
@@ -661,8 +669,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_5306.mid",
-        "classical_piano_5306.mp3",
-        "classical_piano_5306.wav"
+        "classical_piano_5306.mp3"
       ],
       "form": "AB",
       "generated_date": "2026-08-04",
@@ -690,8 +697,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_5311.mid",
-        "classical_piano_5311.mp3",
-        "classical_piano_5311.wav"
+        "classical_piano_5311.mp3"
       ],
       "form": "AB",
       "generated_date": "2026-08-04",
@@ -719,8 +725,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_5312.mid",
-        "classical_piano_5312.mp3",
-        "classical_piano_5312.wav"
+        "classical_piano_5312.mp3"
       ],
       "form": "AB",
       "generated_date": "2026-08-04",
@@ -748,8 +753,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_5313.mid",
-        "classical_piano_5313.mp3",
-        "classical_piano_5313.wav"
+        "classical_piano_5313.mp3"
       ],
       "form": "AB",
       "generated_date": "2026-08-04",
@@ -777,8 +781,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_5702.mid",
-        "classical_piano_5702.mp3",
-        "classical_piano_5702.wav"
+        "classical_piano_5702.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -806,8 +809,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_5777.mid",
-        "classical_piano_5777.mp3",
-        "classical_piano_5777.wav"
+        "classical_piano_5777.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -835,8 +837,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_5901.mid",
-        "classical_piano_5901.mp3",
-        "classical_piano_5901.wav"
+        "classical_piano_5901.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -864,8 +865,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_piano_6134.mid",
-        "classical_piano_6134.mp3",
-        "classical_piano_6134.wav"
+        "classical_piano_6134.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -886,6 +886,37 @@
       ]
     },
     {
+      "bpm": 68.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 352.941,
+      "engine_commit": "18f1ca2+dirty",
+      "files": [
+        "classical_quartet_25000.mid",
+        "classical_quartet_25000.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-08",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "長",
+      "meter_beats": 4,
+      "mode": "minor",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 20,
+      "seed": 25000,
+      "tonic": "B",
+      "track_id": "classical_quartet_25000",
+      "versions": [
+        "main"
+      ]
+    },
+    {
       "bpm": 96.0,
       "category": "classical_quartet",
       "declared_progression": null,
@@ -893,8 +924,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4601.mid",
-        "classical_quartet_4601.mp3",
-        "classical_quartet_4601.wav"
+        "classical_quartet_4601.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -925,8 +955,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4602.mid",
-        "classical_quartet_4602.mp3",
-        "classical_quartet_4602.wav"
+        "classical_quartet_4602.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -957,8 +986,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4603.mid",
-        "classical_quartet_4603.mp3",
-        "classical_quartet_4603.wav"
+        "classical_quartet_4603.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -989,8 +1017,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4604.mid",
-        "classical_quartet_4604.mp3",
-        "classical_quartet_4604.wav"
+        "classical_quartet_4604.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -1021,8 +1048,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4605.mid",
-        "classical_quartet_4605.mp3",
-        "classical_quartet_4605.wav"
+        "classical_quartet_4605.mp3"
       ],
       "form": "ABA",
       "generated_date": "2026-08-04",
@@ -1053,8 +1079,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4701.mid",
-        "classical_quartet_4701.mp3",
-        "classical_quartet_4701.wav"
+        "classical_quartet_4701.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -1085,8 +1110,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4702.mid",
-        "classical_quartet_4702.mp3",
-        "classical_quartet_4702.wav"
+        "classical_quartet_4702.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -1117,8 +1141,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4703.mid",
-        "classical_quartet_4703.mp3",
-        "classical_quartet_4703.wav"
+        "classical_quartet_4703.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -1149,8 +1172,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4704.mid",
-        "classical_quartet_4704.mp3",
-        "classical_quartet_4704.wav"
+        "classical_quartet_4704.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -1181,8 +1203,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4705.mid",
-        "classical_quartet_4705.mp3",
-        "classical_quartet_4705.wav"
+        "classical_quartet_4705.mp3"
       ],
       "form": "RONDO5",
       "generated_date": "2026-08-04",
@@ -1213,8 +1234,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4801.mid",
-        "classical_quartet_4801.mp3",
-        "classical_quartet_4801.wav"
+        "classical_quartet_4801.mp3"
       ],
       "form": "SONATINA",
       "generated_date": "2026-08-04",
@@ -1245,8 +1265,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4802.mid",
-        "classical_quartet_4802.mp3",
-        "classical_quartet_4802.wav"
+        "classical_quartet_4802.mp3"
       ],
       "form": "SONATINA",
       "generated_date": "2026-08-04",
@@ -1277,8 +1296,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4804.mid",
-        "classical_quartet_4804.mp3",
-        "classical_quartet_4804.wav"
+        "classical_quartet_4804.mp3"
       ],
       "form": "SONATINA",
       "generated_date": "2026-08-04",
@@ -1309,8 +1327,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4805.mid",
-        "classical_quartet_4805.mp3",
-        "classical_quartet_4805.wav"
+        "classical_quartet_4805.mp3"
       ],
       "form": "SONATINA",
       "generated_date": "2026-08-04",
@@ -1341,8 +1358,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "classical_quartet_4806.mid",
-        "classical_quartet_4806.mp3",
-        "classical_quartet_4806.wav"
+        "classical_quartet_4806.mp3"
       ],
       "form": "SONATINA",
       "generated_date": "2026-08-04",
@@ -1373,8 +1389,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11001.mid",
-        "jpop_3piece_11001.mp3",
-        "jpop_3piece_11001.wav"
+        "jpop_3piece_11001.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1397,8 +1412,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11004.mid",
-        "jpop_3piece_11004.mp3",
-        "jpop_3piece_11004.wav"
+        "jpop_3piece_11004.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1421,8 +1435,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11005.mid",
-        "jpop_3piece_11005.mp3",
-        "jpop_3piece_11005.wav"
+        "jpop_3piece_11005.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1445,8 +1458,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11006.mid",
-        "jpop_3piece_11006.mp3",
-        "jpop_3piece_11006.wav"
+        "jpop_3piece_11006.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1469,8 +1481,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11007.mid",
-        "jpop_3piece_11007.mp3",
-        "jpop_3piece_11007.wav"
+        "jpop_3piece_11007.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1493,8 +1504,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11302.mid",
-        "jpop_3piece_11302.mp3",
-        "jpop_3piece_11302.wav"
+        "jpop_3piece_11302.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1517,8 +1527,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11310.mid",
-        "jpop_3piece_11310.mp3",
-        "jpop_3piece_11310.wav"
+        "jpop_3piece_11310.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1541,8 +1550,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11311.mid",
-        "jpop_3piece_11311.mp3",
-        "jpop_3piece_11311.wav"
+        "jpop_3piece_11311.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1565,8 +1573,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11316.mid",
-        "jpop_3piece_11316.mp3",
-        "jpop_3piece_11316.wav"
+        "jpop_3piece_11316.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1589,8 +1596,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11601.mid",
-        "jpop_3piece_11601.mp3",
-        "jpop_3piece_11601.wav"
+        "jpop_3piece_11601.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1613,8 +1619,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11623.mid",
-        "jpop_3piece_11623.mp3",
-        "jpop_3piece_11623.wav"
+        "jpop_3piece_11623.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1637,8 +1642,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11627.mid",
-        "jpop_3piece_11627.mp3",
-        "jpop_3piece_11627.wav"
+        "jpop_3piece_11627.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1661,8 +1665,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11635.mid",
-        "jpop_3piece_11635.mp3",
-        "jpop_3piece_11635.wav"
+        "jpop_3piece_11635.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1685,8 +1688,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11901.mid",
-        "jpop_3piece_11901.mp3",
-        "jpop_3piece_11901.wav"
+        "jpop_3piece_11901.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1709,8 +1711,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11904.mid",
-        "jpop_3piece_11904.mp3",
-        "jpop_3piece_11904.wav"
+        "jpop_3piece_11904.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1733,8 +1734,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11905.mid",
-        "jpop_3piece_11905.mp3",
-        "jpop_3piece_11905.wav"
+        "jpop_3piece_11905.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1757,8 +1757,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "jpop_3piece_11907.mid",
-        "jpop_3piece_11907.mp3",
-        "jpop_3piece_11907.wav"
+        "jpop_3piece_11907.mp3"
       ],
       "form": "jpop_full_3piece",
       "generated_date": "2026-08-04",
@@ -1782,10 +1781,8 @@
       "files": [
         "karaoke_12201_guide.mid",
         "karaoke_12201_guide.mp3",
-        "karaoke_12201_guide.wav",
         "karaoke_12201_karaoke.mid",
-        "karaoke_12201_karaoke.mp3",
-        "karaoke_12201_karaoke.wav"
+        "karaoke_12201_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -1810,10 +1807,8 @@
       "files": [
         "karaoke_12208_guide.mid",
         "karaoke_12208_guide.mp3",
-        "karaoke_12208_guide.wav",
         "karaoke_12208_karaoke.mid",
-        "karaoke_12208_karaoke.mp3",
-        "karaoke_12208_karaoke.wav"
+        "karaoke_12208_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -1838,10 +1833,8 @@
       "files": [
         "karaoke_12233_guide.mid",
         "karaoke_12233_guide.mp3",
-        "karaoke_12233_guide.wav",
         "karaoke_12233_karaoke.mid",
-        "karaoke_12233_karaoke.mp3",
-        "karaoke_12233_karaoke.wav"
+        "karaoke_12233_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -1866,10 +1859,8 @@
       "files": [
         "karaoke_12246_guide.mid",
         "karaoke_12246_guide.mp3",
-        "karaoke_12246_guide.wav",
         "karaoke_12246_karaoke.mid",
-        "karaoke_12246_karaoke.mp3",
-        "karaoke_12246_karaoke.wav"
+        "karaoke_12246_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -1894,10 +1885,8 @@
       "files": [
         "karaoke_12274_guide.mid",
         "karaoke_12274_guide.mp3",
-        "karaoke_12274_guide.wav",
         "karaoke_12274_karaoke.mid",
-        "karaoke_12274_karaoke.mp3",
-        "karaoke_12274_karaoke.wav"
+        "karaoke_12274_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -1922,10 +1911,8 @@
       "files": [
         "karaoke_12280_guide.mid",
         "karaoke_12280_guide.mp3",
-        "karaoke_12280_guide.wav",
         "karaoke_12280_karaoke.mid",
-        "karaoke_12280_karaoke.mp3",
-        "karaoke_12280_karaoke.wav"
+        "karaoke_12280_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -1950,10 +1937,8 @@
       "files": [
         "karaoke_12325_guide.mid",
         "karaoke_12325_guide.mp3",
-        "karaoke_12325_guide.wav",
         "karaoke_12325_karaoke.mid",
-        "karaoke_12325_karaoke.mp3",
-        "karaoke_12325_karaoke.wav"
+        "karaoke_12325_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -1978,10 +1963,8 @@
       "files": [
         "karaoke_12609_guide.mid",
         "karaoke_12609_guide.mp3",
-        "karaoke_12609_guide.wav",
         "karaoke_12609_karaoke.mid",
-        "karaoke_12609_karaoke.mp3",
-        "karaoke_12609_karaoke.wav"
+        "karaoke_12609_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -2006,10 +1989,8 @@
       "files": [
         "karaoke_12627_guide.mid",
         "karaoke_12627_guide.mp3",
-        "karaoke_12627_guide.wav",
         "karaoke_12627_karaoke.mid",
-        "karaoke_12627_karaoke.mp3",
-        "karaoke_12627_karaoke.wav"
+        "karaoke_12627_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -2034,10 +2015,8 @@
       "files": [
         "karaoke_12672_guide.mid",
         "karaoke_12672_guide.mp3",
-        "karaoke_12672_guide.wav",
         "karaoke_12672_karaoke.mid",
-        "karaoke_12672_karaoke.mp3",
-        "karaoke_12672_karaoke.wav"
+        "karaoke_12672_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -2062,10 +2041,8 @@
       "files": [
         "karaoke_12716_guide.mid",
         "karaoke_12716_guide.mp3",
-        "karaoke_12716_guide.wav",
         "karaoke_12716_karaoke.mid",
-        "karaoke_12716_karaoke.mp3",
-        "karaoke_12716_karaoke.wav"
+        "karaoke_12716_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -2090,10 +2067,8 @@
       "files": [
         "karaoke_12737_guide.mid",
         "karaoke_12737_guide.mp3",
-        "karaoke_12737_guide.wav",
         "karaoke_12737_karaoke.mid",
-        "karaoke_12737_karaoke.mp3",
-        "karaoke_12737_karaoke.wav"
+        "karaoke_12737_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -2118,10 +2093,8 @@
       "files": [
         "karaoke_12806_guide.mid",
         "karaoke_12806_guide.mp3",
-        "karaoke_12806_guide.wav",
         "karaoke_12806_karaoke.mid",
-        "karaoke_12806_karaoke.mp3",
-        "karaoke_12806_karaoke.wav"
+        "karaoke_12806_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
       "generated_date": "2026-08-04",
@@ -2138,6 +2111,32 @@
       ]
     },
     {
+      "bpm": 132.0,
+      "category": "karaoke",
+      "declared_progression": null,
+      "duration_seconds": 174.545,
+      "engine_commit": "18f1ca2+dirty",
+      "files": [
+        "karaoke_23000_guide.mid",
+        "karaoke_23000_guide.mp3",
+        "karaoke_23000_karaoke.mid",
+        "karaoke_23000_karaoke.mp3"
+      ],
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-08",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23000,
+      "track_id": "karaoke_23000",
+      "transpose_semitones": 0,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
       "bpm": 176.0,
       "category": "rock_intense",
       "declared_progression": null,
@@ -2145,8 +2144,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_intense_10403.mid",
-        "rock_intense_10403.mp3",
-        "rock_intense_10403.wav"
+        "rock_intense_10403.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2169,8 +2167,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_intense_10405.mid",
-        "rock_intense_10405.mp3",
-        "rock_intense_10405.wav"
+        "rock_intense_10405.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2193,8 +2190,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_intense_10406.mid",
-        "rock_intense_10406.mp3",
-        "rock_intense_10406.wav"
+        "rock_intense_10406.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2217,8 +2213,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_intense_10407.mid",
-        "rock_intense_10407.mp3",
-        "rock_intense_10407.wav"
+        "rock_intense_10407.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2241,8 +2236,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_intense_10411.mid",
-        "rock_intense_10411.mp3",
-        "rock_intense_10411.wav"
+        "rock_intense_10411.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2265,8 +2259,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_intense_10412.mid",
-        "rock_intense_10412.mp3",
-        "rock_intense_10412.wav"
+        "rock_intense_10412.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2289,8 +2282,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_intense_10419.mid",
-        "rock_intense_10419.mp3",
-        "rock_intense_10419.wav"
+        "rock_intense_10419.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2313,8 +2305,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_intense_10420.mid",
-        "rock_intense_10420.mp3",
-        "rock_intense_10420.wav"
+        "rock_intense_10420.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2337,8 +2328,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_intense_10422.mid",
-        "rock_intense_10422.mp3",
-        "rock_intense_10422.wav"
+        "rock_intense_10422.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2361,8 +2351,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_intense_10423.mid",
-        "rock_intense_10423.mp3",
-        "rock_intense_10423.wav"
+        "rock_intense_10423.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2385,8 +2374,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10001.mid",
-        "rock_standard_10001.mp3",
-        "rock_standard_10001.wav"
+        "rock_standard_10001.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2409,8 +2397,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10004.mid",
-        "rock_standard_10004.mp3",
-        "rock_standard_10004.wav"
+        "rock_standard_10004.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2433,8 +2420,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10006.mid",
-        "rock_standard_10006.mp3",
-        "rock_standard_10006.wav"
+        "rock_standard_10006.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2457,8 +2443,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10007.mid",
-        "rock_standard_10007.mp3",
-        "rock_standard_10007.wav"
+        "rock_standard_10007.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2481,8 +2466,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10008.mid",
-        "rock_standard_10008.mp3",
-        "rock_standard_10008.wav"
+        "rock_standard_10008.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2505,8 +2489,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10010.mid",
-        "rock_standard_10010.mp3",
-        "rock_standard_10010.wav"
+        "rock_standard_10010.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2529,8 +2512,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10011.mid",
-        "rock_standard_10011.mp3",
-        "rock_standard_10011.wav"
+        "rock_standard_10011.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2553,8 +2535,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10013.mid",
-        "rock_standard_10013.mp3",
-        "rock_standard_10013.wav"
+        "rock_standard_10013.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2577,8 +2558,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10020.mid",
-        "rock_standard_10020.mp3",
-        "rock_standard_10020.wav"
+        "rock_standard_10020.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2601,8 +2581,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10022.mid",
-        "rock_standard_10022.mp3",
-        "rock_standard_10022.wav"
+        "rock_standard_10022.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2625,8 +2604,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10205.mid",
-        "rock_standard_10205.mp3",
-        "rock_standard_10205.wav"
+        "rock_standard_10205.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2649,8 +2627,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10206.mid",
-        "rock_standard_10206.mp3",
-        "rock_standard_10206.wav"
+        "rock_standard_10206.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2673,8 +2650,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10208.mid",
-        "rock_standard_10208.mp3",
-        "rock_standard_10208.wav"
+        "rock_standard_10208.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2697,8 +2673,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10211.mid",
-        "rock_standard_10211.mp3",
-        "rock_standard_10211.wav"
+        "rock_standard_10211.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2721,8 +2696,7 @@
       "engine_commit": "18f1ca2+dirty",
       "files": [
         "rock_standard_10212.mid",
-        "rock_standard_10212.mp3",
-        "rock_standard_10212.wav"
+        "rock_standard_10212.mp3"
       ],
       "form": "standard",
       "generated_date": "2026-08-04",
@@ -2739,11 +2713,11 @@
     }
   ],
   "tracks_by_category": {
-    "classical_duo": 10,
+    "classical_duo": 11,
     "classical_piano": 19,
-    "classical_quartet": 15,
+    "classical_quartet": 16,
     "jpop_3piece": 17,
-    "karaoke": 13,
+    "karaoke": 14,
     "rock_intense": 10,
     "rock_standard": 15
   }

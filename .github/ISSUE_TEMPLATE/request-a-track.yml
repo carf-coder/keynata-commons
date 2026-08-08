@@ -1,0 +1,69 @@
+name: Request a track
+description: Ask for a specific kind of track. The nightly generator picks it up first.
+title: "Request: "
+labels: ["request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every track in Keynata Commons is generated locally, screened against
+        four gates, and released under CC0. Requests are generated on the next
+        nightly run — if the result passes the gates it ships with the next
+        weekly release, and a bot comments here with the track id.
+
+        Nothing here is a promise: a request can be rejected if the result is
+        too close to the training corpus or to a track already in the library.
+        Open another request with a different seed and it will most likely pass.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which kind of track do you want?
+      options:
+        - rock_standard
+        - rock_intense
+        - jpop_3piece
+        - karaoke
+        - classical_duo
+        - classical_quartet
+    validations:
+      required: true
+  - type: input
+    id: seed
+    attributes:
+      label: Seed
+      description: >
+        A whole number. The same seed always produces the same track, so this
+        is how you ask for one specific piece. Leave empty to get the next
+        unused seed for the category.
+      placeholder: "20250"
+    validations:
+      required: false
+  - type: input
+    id: mood
+    attributes:
+      label: Mood
+      description: >
+        Classical categories only (classical_duo, classical_quartet). One of
+        the preset names used by the engine, for example 優雅, 悲しげ, 劇的,
+        きらびやか, のどか. Ignored for band categories.
+      placeholder: "優雅"
+    validations:
+      required: false
+  - type: input
+    id: progression
+    attributes:
+      label: Progression
+      description: >
+        Band categories only (jpop_3piece, karaoke). One of royal_road,
+        komuro, canon. Ignored for classical categories.
+      placeholder: "royal_road"
+    validations:
+      required: false
+  - type: checkboxes
+    id: license
+    attributes:
+      label: License
+      options:
+        - label: I understand the result is dedicated to the public domain under CC0 1.0 and carries no guarantees.
+          required: true
