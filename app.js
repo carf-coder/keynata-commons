@@ -501,7 +501,9 @@
 
     var current = el.list.querySelector('[data-play="' + id + '"]');
     if (!current) return;
-    if (state.mode === "mp3") relabel(current, "Play", "Pause");
+    /* 丸ボタンは経路を問わず「その行の再生/停止」の統一コントロール(2026-08-05
+       ユーザーFBで変更)。Synth再生中も停止表示にし、押せば停止する。 */
+    relabel(current, "Play", "Pause");
 
     if (state.mode === "synth") {
       var toggleButton = el.list.querySelector('[data-synth="' + id + '"]');
@@ -511,8 +513,6 @@
       }
     }
 
-    /* 合成で鳴っているときは丸い再生ボタンを「停止」の見た目にしない。
-       あれはMP3の入口のままで、押せばMP3に切り替わるのが正しい振る舞いだから。 */
     var row = current.closest(".track");
     if (row) {
       row.classList.add("is-playing");
@@ -540,6 +540,13 @@
     if (state.playingId === rendition.id && state.mode === "mp3" && !audio.paused) {
       audio.pause();
       clearPlaying();
+      return;
+    }
+    /* この行がSynthで鳴っているときの丸ボタンは「停止」(MP3への切替ではない)。
+       2026-08-05ユーザーFB: 左の再生/停止ボタンはSynthとも連動させる。 */
+    if (state.playingId === rendition.id && state.mode === "synth" &&
+        synth.seq && !synth.seq.paused) {
+      stopEverything();
       return;
     }
     if (!rendition.mp3) return;
