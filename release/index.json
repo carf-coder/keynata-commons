@@ -27,12 +27,12 @@
       "source": "Groove MIDI Dataset (GMD)"
     }
   ],
-  "engine_commit": "18f1ca2+dirty",
+  "engine_commit": "f79fd0c",
   "license": {
     "generated_content": "CC0-1.0",
     "url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
-  "n_tracks": 102,
+  "n_tracks": 183,
   "tracks": [
     {
       "bpm": 123.0,
@@ -59,6 +59,528 @@
       "seed": 24000,
       "tonic": "C",
       "track_id": "classical_duo_24000",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 144.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 26.667,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "classical_duo_24002.mid",
+        "classical_duo_24002.mp3"
+      ],
+      "form": "AB",
+      "generated_date": "2026-08-09",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "minor",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 24002,
+      "tonic": "B",
+      "track_id": "classical_duo_24002",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 132.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 290.909,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "classical_duo_24003.mid",
+        "classical_duo_24003.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-09",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "特長",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 32,
+      "seed": 24003,
+      "tonic": "D",
+      "track_id": "classical_duo_24003",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 151.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 25.43,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "classical_duo_24004.mid",
+        "classical_duo_24004.mp3"
+      ],
+      "form": "AB",
+      "generated_date": "2026-08-09",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "minor",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 24004,
+      "tonic": "G",
+      "track_id": "classical_duo_24004",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 68.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 84.706,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "classical_duo_24005.mid",
+        "classical_duo_24005.mp3"
+      ],
+      "form": "ABA",
+      "generated_date": "2026-08-09",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "minor",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 24005,
+      "tonic": "A",
+      "track_id": "classical_duo_24005",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 137.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 105.109,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "classical_duo_24008.mid",
+        "classical_duo_24008.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-09",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "中",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 12,
+      "seed": 24008,
+      "tonic": "A",
+      "track_id": "classical_duo_24008",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 92.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 46.957,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "classical_duo_24009.mid",
+        "classical_duo_24009.mp3"
+      ],
+      "form": "ABA",
+      "generated_date": "2026-08-09",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "短",
+      "meter_beats": 3,
+      "mode": "minor",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 24009,
+      "tonic": "G",
+      "track_id": "classical_duo_24009",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 80.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 48.0,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "classical_duo_24013.mid",
+        "classical_duo_24013.mp3"
+      ],
+      "form": "AB",
+      "generated_date": "2026-08-10",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 24013,
+      "tonic": "B",
+      "track_id": "classical_duo_24013",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 76.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 505.263,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "classical_duo_24014.mid",
+        "classical_duo_24014.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-10",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "特長",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 32,
+      "seed": 24014,
+      "tonic": "A",
+      "track_id": "classical_duo_24014",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 76.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 353.684,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "classical_duo_24015.mid",
+        "classical_duo_24015.mp3"
+      ],
+      "form": "RONDO7",
+      "generated_date": "2026-08-10",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "長",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 16,
+      "seed": 24015,
+      "tonic": "E",
+      "track_id": "classical_duo_24015",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 96.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 112.5,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "classical_duo_24016.mid",
+        "classical_duo_24016.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-10",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "中",
+      "meter_beats": 3,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 12,
+      "seed": 24016,
+      "tonic": "F",
+      "track_id": "classical_duo_24016",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 92.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 41.739,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "classical_duo_24017.mid",
+        "classical_duo_24017.mp3"
+      ],
+      "form": "AB",
+      "generated_date": "2026-08-10",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 24017,
+      "tonic": "B",
+      "track_id": "classical_duo_24017",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 103.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 372.816,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "classical_duo_24019.mid",
+        "classical_duo_24019.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-10",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "特長",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 32,
+      "seed": 24019,
+      "tonic": "B",
+      "track_id": "classical_duo_24019",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 62.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 255.484,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "classical_duo_24024.mid",
+        "classical_duo_24024.mp3"
+      ],
+      "form": "SONATINA",
+      "generated_date": "2026-08-11",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "中",
+      "meter_beats": 4,
+      "mode": "minor",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 12,
+      "seed": 24024,
+      "tonic": "D",
+      "track_id": "classical_duo_24024",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 131.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 163.511,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "classical_duo_24028.mid",
+        "classical_duo_24028.mp3"
+      ],
+      "form": "SONATINA",
+      "generated_date": "2026-08-11",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "長",
+      "meter_beats": 3,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 20,
+      "seed": 24028,
+      "tonic": "B",
+      "track_id": "classical_duo_24028",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 125.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 46.08,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "classical_duo_24029.mid",
+        "classical_duo_24029.mp3"
+      ],
+      "form": "ABA",
+      "generated_date": "2026-08-12",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 24029,
+      "tonic": "C",
+      "track_id": "classical_duo_24029",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 137.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 28.029,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "classical_duo_24031.mid",
+        "classical_duo_24031.mp3"
+      ],
+      "form": "AB",
+      "generated_date": "2026-08-12",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "minor",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 24031,
+      "tonic": "F",
+      "track_id": "classical_duo_24031",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 54.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 444.444,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "classical_duo_24032.mid",
+        "classical_duo_24032.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-12",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "長",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 20,
+      "seed": 24032,
+      "tonic": "G",
+      "track_id": "classical_duo_24032",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 59.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 244.068,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "classical_duo_24036.mid",
+        "classical_duo_24036.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-12",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "中",
+      "meter_beats": 4,
+      "mode": "minor",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 12,
+      "seed": 24036,
+      "tonic": "E",
+      "track_id": "classical_duo_24036",
       "versions": [
         "main"
       ]
@@ -917,6 +1439,409 @@
       ]
     },
     {
+      "bpm": 76.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 353.684,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "classical_quartet_25002.mid",
+        "classical_quartet_25002.mp3"
+      ],
+      "form": "RONDO7",
+      "generated_date": "2026-08-09",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "長",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 16,
+      "seed": 25002,
+      "tonic": "C",
+      "track_id": "classical_quartet_25002",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 151.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 158.94,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "classical_quartet_25003.mid",
+        "classical_quartet_25003.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-09",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "長",
+      "meter_beats": 4,
+      "mode": "minor",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 20,
+      "seed": 25003,
+      "tonic": "F",
+      "track_id": "classical_quartet_25003",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 86.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 125.581,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "classical_quartet_25004.mid",
+        "classical_quartet_25004.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-09",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "中",
+      "meter_beats": 3,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 12,
+      "seed": 25004,
+      "tonic": "E",
+      "track_id": "classical_quartet_25004",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 144.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 26.667,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "classical_quartet_25008.mid",
+        "classical_quartet_25008.mp3"
+      ],
+      "form": "AB",
+      "generated_date": "2026-08-09",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 25008,
+      "tonic": "G",
+      "track_id": "classical_quartet_25008",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 84.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 320.0,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "classical_quartet_25010.mid",
+        "classical_quartet_25010.mp3"
+      ],
+      "form": "RONDO7",
+      "generated_date": "2026-08-09",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "長",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 16,
+      "seed": 25010,
+      "tonic": "F",
+      "track_id": "classical_quartet_25010",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 151.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 104.901,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "classical_quartet_25011.mid",
+        "classical_quartet_25011.mp3"
+      ],
+      "form": "SONATINA",
+      "generated_date": "2026-08-10",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "中",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 12,
+      "seed": 25011,
+      "tonic": "A",
+      "track_id": "classical_quartet_25011",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 103.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 153.786,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "classical_quartet_25016.mid",
+        "classical_quartet_25016.mp3"
+      ],
+      "form": "SONATINA",
+      "generated_date": "2026-08-10",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "中",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 12,
+      "seed": 25016,
+      "tonic": "C",
+      "track_id": "classical_quartet_25016",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 137.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 28.029,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "classical_quartet_25019.mid",
+        "classical_quartet_25019.mp3"
+      ],
+      "form": "AB",
+      "generated_date": "2026-08-10",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 25019,
+      "tonic": "E",
+      "track_id": "classical_quartet_25019",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 123.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 128.78,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "classical_quartet_25022.mid",
+        "classical_quartet_25022.mp3"
+      ],
+      "form": "SONATINA",
+      "generated_date": "2026-08-11",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "中",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 12,
+      "seed": 25022,
+      "tonic": "D",
+      "track_id": "classical_quartet_25022",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 100.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 144.0,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "classical_quartet_25027.mid",
+        "classical_quartet_25027.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-11",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "中",
+      "meter_beats": 4,
+      "mode": "minor",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 12,
+      "seed": 25027,
+      "tonic": "C",
+      "track_id": "classical_quartet_25027",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 65.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 243.692,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "classical_quartet_25028.mid",
+        "classical_quartet_25028.mp3"
+      ],
+      "form": "SONATINA",
+      "generated_date": "2026-08-11",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "中",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 12,
+      "seed": 25028,
+      "tonic": "F",
+      "track_id": "classical_quartet_25028",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 152.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 37.895,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "classical_quartet_25030.mid",
+        "classical_quartet_25030.mp3"
+      ],
+      "form": "ABA",
+      "generated_date": "2026-08-12",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 25030,
+      "tonic": "G",
+      "track_id": "classical_quartet_25030",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 84.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 45.714,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "classical_quartet_25032.mid",
+        "classical_quartet_25032.mp3"
+      ],
+      "form": "AB",
+      "generated_date": "2026-08-12",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 25032,
+      "tonic": "A",
+      "track_id": "classical_quartet_25032",
+      "versions": [
+        "main"
+      ]
+    },
+    {
       "bpm": 96.0,
       "category": "classical_quartet",
       "declared_progression": null,
@@ -1384,18 +2309,18 @@
     {
       "bpm": 148.0,
       "category": "jpop_3piece",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 155.676,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11001.mid",
         "jpop_3piece_11001.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "c",
       "mode": "major",
-      "modulation_semitones": 1,
+      "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 11001,
       "track_id": "jpop_3piece_11001",
@@ -1407,18 +2332,18 @@
     {
       "bpm": 128.0,
       "category": "jpop_3piece",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 180.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11004.mid",
         "jpop_3piece_11004.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "a",
       "mode": "major",
-      "modulation_semitones": 1,
+      "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 11004,
       "track_id": "jpop_3piece_11004",
@@ -1476,18 +2401,18 @@
     {
       "bpm": 132.0,
       "category": "jpop_3piece",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 174.545,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11007.mid",
         "jpop_3piece_11007.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "b",
       "mode": "major",
-      "modulation_semitones": 1,
+      "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 11007,
       "track_id": "jpop_3piece_11007",
@@ -1499,15 +2424,15 @@
     {
       "bpm": 144.0,
       "category": "jpop_3piece",
-      "declared_progression": "komuro",
+      "declared_progression": null,
       "duration_seconds": 160.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11302.mid",
         "jpop_3piece_11302.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -1545,15 +2470,15 @@
     {
       "bpm": 136.0,
       "category": "jpop_3piece",
-      "declared_progression": "komuro",
+      "declared_progression": null,
       "duration_seconds": 169.412,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11311.mid",
         "jpop_3piece_11311.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -1568,15 +2493,15 @@
     {
       "bpm": 144.0,
       "category": "jpop_3piece",
-      "declared_progression": "komuro",
+      "declared_progression": null,
       "duration_seconds": 160.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11316.mid",
         "jpop_3piece_11316.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -1591,15 +2516,15 @@
     {
       "bpm": 140.0,
       "category": "jpop_3piece",
-      "declared_progression": "canon",
+      "declared_progression": null,
       "duration_seconds": 164.571,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11601.mid",
         "jpop_3piece_11601.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -1637,15 +2562,15 @@
     {
       "bpm": 132.0,
       "category": "jpop_3piece",
-      "declared_progression": "canon",
+      "declared_progression": null,
       "duration_seconds": 174.545,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11627.mid",
         "jpop_3piece_11627.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -1685,13 +2610,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 160.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11901.mid",
         "jpop_3piece_11901.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -1708,13 +2633,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 180.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11904.mid",
         "jpop_3piece_11904.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -1731,13 +2656,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 151.579,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11905.mid",
         "jpop_3piece_11905.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -1754,13 +2679,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 155.676,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "jpop_3piece_11907.mid",
         "jpop_3piece_11907.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -1773,11 +2698,287 @@
       ]
     },
     {
+      "bpm": 140.0,
+      "category": "jpop_3piece",
+      "declared_progression": "canon",
+      "duration_seconds": 109.714,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "jpop_3piece_22007.mid",
+        "jpop_3piece_22007.mp3"
+      ],
+      "form": "jpop_short_3piece",
+      "generated_date": "2026-08-09",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22007,
+      "track_id": "jpop_3piece_22007",
+      "transpose_semitones": 0,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 152.0,
+      "category": "jpop_3piece",
+      "declared_progression": null,
+      "duration_seconds": 202.105,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "jpop_3piece_22012.mid",
+        "jpop_3piece_22012.mp3"
+      ],
+      "form": "jpop_extended_3piece",
+      "generated_date": "2026-08-10",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22012,
+      "track_id": "jpop_3piece_22012",
+      "transpose_semitones": 5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 152.0,
+      "category": "jpop_3piece",
+      "declared_progression": null,
+      "duration_seconds": 151.579,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "jpop_3piece_22016.mid",
+        "jpop_3piece_22016.mp3"
+      ],
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-10",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22016,
+      "track_id": "jpop_3piece_22016",
+      "transpose_semitones": 5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 144.0,
+      "category": "jpop_3piece",
+      "declared_progression": "komuro",
+      "duration_seconds": 213.333,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "jpop_3piece_22018.mid",
+        "jpop_3piece_22018.mp3"
+      ],
+      "form": "jpop_extended_3piece",
+      "generated_date": "2026-08-10",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22018,
+      "track_id": "jpop_3piece_22018",
+      "transpose_semitones": -4,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 144.0,
+      "category": "jpop_3piece",
+      "declared_progression": null,
+      "duration_seconds": 213.333,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "jpop_3piece_22020.mid",
+        "jpop_3piece_22020.mp3"
+      ],
+      "form": "jpop_extended_3piece",
+      "generated_date": "2026-08-11",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22020,
+      "track_id": "jpop_3piece_22020",
+      "transpose_semitones": 5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 148.0,
+      "category": "jpop_3piece",
+      "declared_progression": "canon",
+      "duration_seconds": 207.568,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "jpop_3piece_22023.mid",
+        "jpop_3piece_22023.mp3"
+      ],
+      "form": "jpop_extended_3piece",
+      "generated_date": "2026-08-11",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22023,
+      "track_id": "jpop_3piece_22023",
+      "transpose_semitones": 5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 140.0,
+      "category": "jpop_3piece",
+      "declared_progression": null,
+      "duration_seconds": 109.714,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "jpop_3piece_22024.mid",
+        "jpop_3piece_22024.mp3"
+      ],
+      "form": "jpop_short_3piece",
+      "generated_date": "2026-08-11",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22024,
+      "track_id": "jpop_3piece_22024",
+      "transpose_semitones": 3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 132.0,
+      "category": "jpop_3piece",
+      "declared_progression": "royal_road",
+      "duration_seconds": 116.364,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "jpop_3piece_22025.mid",
+        "jpop_3piece_22025.mp3"
+      ],
+      "form": "jpop_short_3piece",
+      "generated_date": "2026-08-11",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22025,
+      "track_id": "jpop_3piece_22025",
+      "transpose_semitones": -5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 132.0,
+      "category": "jpop_3piece",
+      "declared_progression": "canon",
+      "duration_seconds": 116.364,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "jpop_3piece_22027.mid",
+        "jpop_3piece_22027.mp3"
+      ],
+      "form": "jpop_short_3piece",
+      "generated_date": "2026-08-11",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22027,
+      "track_id": "jpop_3piece_22027",
+      "transpose_semitones": 2,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 132.0,
+      "category": "jpop_3piece",
+      "declared_progression": "canon",
+      "duration_seconds": 116.364,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "jpop_3piece_22031.mid",
+        "jpop_3piece_22031.mp3"
+      ],
+      "form": "jpop_short_3piece",
+      "generated_date": "2026-08-12",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22031,
+      "track_id": "jpop_3piece_22031",
+      "transpose_semitones": -5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 136.0,
+      "category": "jpop_3piece",
+      "declared_progression": null,
+      "duration_seconds": 112.941,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "jpop_3piece_22032.mid",
+        "jpop_3piece_22032.mp3"
+      ],
+      "form": "jpop_short_3piece",
+      "generated_date": "2026-08-12",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22032,
+      "track_id": "jpop_3piece_22032",
+      "transpose_semitones": -3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 128.0,
+      "category": "jpop_3piece",
+      "declared_progression": null,
+      "duration_seconds": 120.0,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "jpop_3piece_22036.mid",
+        "jpop_3piece_22036.mp3"
+      ],
+      "form": "jpop_short_3piece",
+      "generated_date": "2026-08-12",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22036,
+      "track_id": "jpop_3piece_22036",
+      "transpose_semitones": 1,
+      "versions": [
+        "main"
+      ]
+    },
+    {
       "bpm": 132.0,
       "category": "karaoke",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 174.545,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_12201_guide.mid",
         "karaoke_12201_guide.mp3",
@@ -1785,10 +2986,10 @@
         "karaoke_12201_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "a",
       "mode": "major",
-      "modulation_semitones": 1,
+      "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 12201,
       "track_id": "karaoke_12201",
@@ -1801,9 +3002,9 @@
     {
       "bpm": 152.0,
       "category": "karaoke",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 151.579,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_12208_guide.mid",
         "karaoke_12208_guide.mp3",
@@ -1811,10 +3012,10 @@
         "karaoke_12208_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "a",
       "mode": "major",
-      "modulation_semitones": 1,
+      "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 12208,
       "track_id": "karaoke_12208",
@@ -1827,9 +3028,9 @@
     {
       "bpm": 136.0,
       "category": "karaoke",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 169.412,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_12233_guide.mid",
         "karaoke_12233_guide.mp3",
@@ -1837,10 +3038,10 @@
         "karaoke_12233_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "c",
       "mode": "major",
-      "modulation_semitones": 1,
+      "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 12233,
       "track_id": "karaoke_12233",
@@ -1853,9 +3054,9 @@
     {
       "bpm": 140.0,
       "category": "karaoke",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 164.571,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_12246_guide.mid",
         "karaoke_12246_guide.mp3",
@@ -1863,10 +3064,10 @@
         "karaoke_12246_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "b",
       "mode": "major",
-      "modulation_semitones": 1,
+      "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 12246,
       "track_id": "karaoke_12246",
@@ -1879,9 +3080,9 @@
     {
       "bpm": 152.0,
       "category": "karaoke",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 151.579,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_12274_guide.mid",
         "karaoke_12274_guide.mp3",
@@ -1889,10 +3090,10 @@
         "karaoke_12274_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "a",
       "mode": "major",
-      "modulation_semitones": 1,
+      "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 12274,
       "track_id": "karaoke_12274",
@@ -1931,9 +3132,9 @@
     {
       "bpm": 140.0,
       "category": "karaoke",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 164.571,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_12325_guide.mid",
         "karaoke_12325_guide.mp3",
@@ -1941,10 +3142,10 @@
         "karaoke_12325_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "c",
       "mode": "major",
-      "modulation_semitones": 1,
+      "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 12325,
       "track_id": "karaoke_12325",
@@ -1957,9 +3158,9 @@
     {
       "bpm": 136.0,
       "category": "karaoke",
-      "declared_progression": "komuro",
+      "declared_progression": null,
       "duration_seconds": 169.412,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_12609_guide.mid",
         "karaoke_12609_guide.mp3",
@@ -1967,7 +3168,7 @@
         "karaoke_12609_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -1983,9 +3184,9 @@
     {
       "bpm": 128.0,
       "category": "karaoke",
-      "declared_progression": "komuro",
+      "declared_progression": null,
       "duration_seconds": 180.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_12627_guide.mid",
         "karaoke_12627_guide.mp3",
@@ -1993,7 +3194,7 @@
         "karaoke_12627_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2009,9 +3210,9 @@
     {
       "bpm": 128.0,
       "category": "karaoke",
-      "declared_progression": "komuro",
+      "declared_progression": null,
       "duration_seconds": 180.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_12672_guide.mid",
         "karaoke_12672_guide.mp3",
@@ -2019,7 +3220,7 @@
         "karaoke_12672_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2061,9 +3262,9 @@
     {
       "bpm": 128.0,
       "category": "karaoke",
-      "declared_progression": "komuro",
+      "declared_progression": null,
       "duration_seconds": 180.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_12737_guide.mid",
         "karaoke_12737_guide.mp3",
@@ -2071,7 +3272,7 @@
         "karaoke_12737_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2087,9 +3288,9 @@
     {
       "bpm": 140.0,
       "category": "karaoke",
-      "declared_progression": "komuro",
+      "declared_progression": null,
       "duration_seconds": 164.571,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_12806_guide.mid",
         "karaoke_12806_guide.mp3",
@@ -2097,7 +3298,7 @@
         "karaoke_12806_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-12",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2115,7 +3316,7 @@
       "category": "karaoke",
       "declared_progression": null,
       "duration_seconds": 174.545,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "f79fd0c",
       "files": [
         "karaoke_23000_guide.mid",
         "karaoke_23000_guide.mp3",
@@ -2123,13 +3324,377 @@
         "karaoke_23000_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-08",
+      "generated_date": "2026-08-12",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 23000,
       "track_id": "karaoke_23000",
+      "transpose_semitones": 0,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 128.0,
+      "category": "karaoke",
+      "declared_progression": "royal_road",
+      "duration_seconds": 120.0,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "karaoke_23009_guide.mid",
+        "karaoke_23009_guide.mp3",
+        "karaoke_23009_karaoke.mid",
+        "karaoke_23009_karaoke.mp3"
+      ],
+      "form": "jpop_short_karaoke",
+      "generated_date": "2026-08-09",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23009,
+      "track_id": "karaoke_23009",
+      "transpose_semitones": 2,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 128.0,
+      "category": "karaoke",
+      "declared_progression": "canon",
+      "duration_seconds": 120.0,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "karaoke_23015_guide.mid",
+        "karaoke_23015_guide.mp3",
+        "karaoke_23015_karaoke.mid",
+        "karaoke_23015_karaoke.mp3"
+      ],
+      "form": "jpop_short_karaoke",
+      "generated_date": "2026-08-10",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23015,
+      "track_id": "karaoke_23015",
+      "transpose_semitones": 1,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 148.0,
+      "category": "karaoke",
+      "declared_progression": null,
+      "duration_seconds": 155.676,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "karaoke_23016_guide.mid",
+        "karaoke_23016_guide.mp3",
+        "karaoke_23016_karaoke.mid",
+        "karaoke_23016_karaoke.mp3"
+      ],
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-10",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23016,
+      "track_id": "karaoke_23016",
+      "transpose_semitones": 4,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 144.0,
+      "category": "karaoke",
+      "declared_progression": "royal_road",
+      "duration_seconds": 160.0,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "karaoke_23017_guide.mid",
+        "karaoke_23017_guide.mp3",
+        "karaoke_23017_karaoke.mid",
+        "karaoke_23017_karaoke.mp3"
+      ],
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-10",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23017,
+      "track_id": "karaoke_23017",
+      "transpose_semitones": -5,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 148.0,
+      "category": "karaoke",
+      "declared_progression": "komuro",
+      "duration_seconds": 155.676,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "karaoke_23022_guide.mid",
+        "karaoke_23022_guide.mp3",
+        "karaoke_23022_karaoke.mid",
+        "karaoke_23022_karaoke.mp3"
+      ],
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-11",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23022,
+      "track_id": "karaoke_23022",
+      "transpose_semitones": -1,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 148.0,
+      "category": "karaoke",
+      "declared_progression": "canon",
+      "duration_seconds": 155.676,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "karaoke_23023_guide.mid",
+        "karaoke_23023_guide.mp3",
+        "karaoke_23023_karaoke.mid",
+        "karaoke_23023_karaoke.mp3"
+      ],
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-11",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23023,
+      "track_id": "karaoke_23023",
+      "transpose_semitones": -4,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 144.0,
+      "category": "karaoke",
+      "declared_progression": null,
+      "duration_seconds": 160.0,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "karaoke_23024_guide.mid",
+        "karaoke_23024_guide.mp3",
+        "karaoke_23024_karaoke.mid",
+        "karaoke_23024_karaoke.mp3"
+      ],
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-11",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23024,
+      "track_id": "karaoke_23024",
+      "transpose_semitones": 3,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 148.0,
+      "category": "karaoke",
+      "declared_progression": "komuro",
+      "duration_seconds": 103.784,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "karaoke_23026_guide.mid",
+        "karaoke_23026_guide.mp3",
+        "karaoke_23026_karaoke.mid",
+        "karaoke_23026_karaoke.mp3"
+      ],
+      "form": "jpop_short_karaoke",
+      "generated_date": "2026-08-11",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23026,
+      "track_id": "karaoke_23026",
+      "transpose_semitones": 6,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 144.0,
+      "category": "karaoke",
+      "declared_progression": "canon",
+      "duration_seconds": 106.667,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "karaoke_23027_guide.mid",
+        "karaoke_23027_guide.mp3",
+        "karaoke_23027_karaoke.mid",
+        "karaoke_23027_karaoke.mp3"
+      ],
+      "form": "jpop_short_karaoke",
+      "generated_date": "2026-08-11",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23027,
+      "track_id": "karaoke_23027",
+      "transpose_semitones": -2,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 152.0,
+      "category": "karaoke",
+      "declared_progression": null,
+      "duration_seconds": 151.579,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "karaoke_23028_guide.mid",
+        "karaoke_23028_guide.mp3",
+        "karaoke_23028_karaoke.mid",
+        "karaoke_23028_karaoke.mp3"
+      ],
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-11",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23028,
+      "track_id": "karaoke_23028",
+      "transpose_semitones": 2,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 144.0,
+      "category": "karaoke",
+      "declared_progression": "komuro",
+      "duration_seconds": 213.333,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "karaoke_23030_guide.mid",
+        "karaoke_23030_guide.mp3",
+        "karaoke_23030_karaoke.mid",
+        "karaoke_23030_karaoke.mp3"
+      ],
+      "form": "jpop_extended_karaoke",
+      "generated_date": "2026-08-12",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23030,
+      "track_id": "karaoke_23030",
+      "transpose_semitones": -3,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 136.0,
+      "category": "karaoke",
+      "declared_progression": "royal_road",
+      "duration_seconds": 225.882,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "karaoke_23033_guide.mid",
+        "karaoke_23033_guide.mp3",
+        "karaoke_23033_karaoke.mid",
+        "karaoke_23033_karaoke.mp3"
+      ],
+      "form": "jpop_extended_karaoke",
+      "generated_date": "2026-08-12",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23033,
+      "track_id": "karaoke_23033",
+      "transpose_semitones": 3,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 132.0,
+      "category": "karaoke",
+      "declared_progression": "canon",
+      "duration_seconds": 116.364,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "karaoke_23035_guide.mid",
+        "karaoke_23035_guide.mp3",
+        "karaoke_23035_karaoke.mid",
+        "karaoke_23035_karaoke.mp3"
+      ],
+      "form": "jpop_short_karaoke",
+      "generated_date": "2026-08-12",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23035,
+      "track_id": "karaoke_23035",
+      "transpose_semitones": -5,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 132.0,
+      "category": "karaoke",
+      "declared_progression": null,
+      "duration_seconds": 116.364,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "karaoke_23036_guide.mid",
+        "karaoke_23036_guide.mp3",
+        "karaoke_23036_karaoke.mid",
+        "karaoke_23036_karaoke.mp3"
+      ],
+      "form": "jpop_short_karaoke",
+      "generated_date": "2026-08-12",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23036,
+      "track_id": "karaoke_23036",
       "transpose_semitones": 0,
       "versions": [
         "guide",
@@ -2362,6 +3927,259 @@
       "seed": 10423,
       "track_id": "rock_intense_10423",
       "transpose_semitones": -3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 164.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 76.098,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "rock_intense_21001.mid",
+        "rock_intense_21001.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-09",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21001,
+      "track_id": "rock_intense_21001",
+      "transpose_semitones": 0,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 176.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 70.909,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "rock_intense_21004.mid",
+        "rock_intense_21004.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-09",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21004,
+      "track_id": "rock_intense_21004",
+      "transpose_semitones": -4,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 152.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 82.105,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "rock_intense_21005.mid",
+        "rock_intense_21005.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-09",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21005,
+      "track_id": "rock_intense_21005",
+      "transpose_semitones": 4,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 160.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 78.0,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "rock_intense_21016.mid",
+        "rock_intense_21016.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-10",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21016,
+      "track_id": "rock_intense_21016",
+      "transpose_semitones": -3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 168.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 74.286,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "rock_intense_21024.mid",
+        "rock_intense_21024.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-11",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21024,
+      "track_id": "rock_intense_21024",
+      "transpose_semitones": 3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 156.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 80.0,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "rock_intense_21025.mid",
+        "rock_intense_21025.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-11",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21025,
+      "track_id": "rock_intense_21025",
+      "transpose_semitones": -3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 176.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 70.909,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "rock_intense_21030.mid",
+        "rock_intense_21030.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-12",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21030,
+      "track_id": "rock_intense_21030",
+      "transpose_semitones": -4,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 152.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 82.105,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "rock_intense_21033.mid",
+        "rock_intense_21033.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-12",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21033,
+      "track_id": "rock_intense_21033",
+      "transpose_semitones": -4,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 176.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 70.909,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "rock_intense_21035.mid",
+        "rock_intense_21035.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-12",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21035,
+      "track_id": "rock_intense_21035",
+      "transpose_semitones": 5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 160.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 78.0,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "rock_intense_21036.mid",
+        "rock_intense_21036.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-12",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21036,
+      "track_id": "rock_intense_21036",
+      "transpose_semitones": -5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 160.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 78.0,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "rock_intense_21037.mid",
+        "rock_intense_21037.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-12",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21037,
+      "track_id": "rock_intense_21037",
+      "transpose_semitones": -4,
       "versions": [
         "main"
       ]
@@ -2710,15 +4528,314 @@
       "versions": [
         "main"
       ]
+    },
+    {
+      "bpm": 104.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 120.0,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "rock_standard_20002.mid",
+        "rock_standard_20002.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-09",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20002,
+      "track_id": "rock_standard_20002",
+      "transpose_semitones": -5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 112.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 111.429,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "rock_standard_20003.mid",
+        "rock_standard_20003.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-09",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20003,
+      "track_id": "rock_standard_20003",
+      "transpose_semitones": -4,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 108.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 115.556,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "rock_standard_20006.mid",
+        "rock_standard_20006.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-09",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20006,
+      "track_id": "rock_standard_20006",
+      "transpose_semitones": -3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 96.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 130.0,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "rock_standard_20008.mid",
+        "rock_standard_20008.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-09",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20008,
+      "track_id": "rock_standard_20008",
+      "transpose_semitones": -1,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 104.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 240.0,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "rock_standard_20011.mid",
+        "rock_standard_20011.mp3"
+      ],
+      "form": "rock_long",
+      "generated_date": "2026-08-10",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20011,
+      "track_id": "rock_standard_20011",
+      "transpose_semitones": -5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 104.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 120.0,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "rock_standard_20012.mid",
+        "rock_standard_20012.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-10",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20012,
+      "track_id": "rock_standard_20012",
+      "transpose_semitones": 3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 116.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 107.586,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "rock_standard_20016.mid",
+        "rock_standard_20016.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-10",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20016,
+      "track_id": "rock_standard_20016",
+      "transpose_semitones": 1,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 104.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 120.0,
+      "engine_commit": "14d1899+dirty",
+      "files": [
+        "rock_standard_20018.mid",
+        "rock_standard_20018.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-10",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20018,
+      "track_id": "rock_standard_20018",
+      "transpose_semitones": 0,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 112.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 222.857,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "rock_standard_20025.mid",
+        "rock_standard_20025.mp3"
+      ],
+      "form": "rock_long",
+      "generated_date": "2026-08-11",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20025,
+      "track_id": "rock_standard_20025",
+      "transpose_semitones": -3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 96.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 260.0,
+      "engine_commit": "627c3b6+dirty",
+      "files": [
+        "rock_standard_20029.mid",
+        "rock_standard_20029.mp3"
+      ],
+      "form": "rock_long",
+      "generated_date": "2026-08-11",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20029,
+      "track_id": "rock_standard_20029",
+      "transpose_semitones": 0,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 116.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 107.586,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "rock_standard_20030.mid",
+        "rock_standard_20030.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-12",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20030,
+      "track_id": "rock_standard_20030",
+      "transpose_semitones": 5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 108.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 115.556,
+      "engine_commit": "474ec27+dirty",
+      "files": [
+        "rock_standard_20033.mid",
+        "rock_standard_20033.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-12",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20033,
+      "track_id": "rock_standard_20033",
+      "transpose_semitones": -3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 100.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 124.8,
+      "engine_commit": "faf31b1+dirty",
+      "files": [
+        "rock_standard_77777.mid",
+        "rock_standard_77777.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-09",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 77777,
+      "track_id": "rock_standard_77777",
+      "transpose_semitones": 4,
+      "versions": [
+        "main"
+      ]
     }
   ],
   "tracks_by_category": {
-    "classical_duo": 11,
+    "classical_duo": 29,
     "classical_piano": 19,
-    "classical_quartet": 16,
-    "jpop_3piece": 17,
-    "karaoke": 14,
-    "rock_intense": 10,
-    "rock_standard": 15
+    "classical_quartet": 29,
+    "jpop_3piece": 29,
+    "karaoke": 28,
+    "rock_intense": 21,
+    "rock_standard": 28
   }
 }

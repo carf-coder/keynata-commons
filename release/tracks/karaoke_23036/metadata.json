@@ -1,0 +1,138 @@
+{
+  "attribution": [
+    {
+      "component": "drum model training data",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "Groove MIDI Dataset (GMD)"
+    }
+  ],
+  "bpm": 132.0,
+  "category": "karaoke",
+  "declared_progression": null,
+  "duration_seconds": 116.364,
+  "engine_commit": "474ec27+dirty",
+  "files": [
+    {
+      "bytes": 16883,
+      "format": "midi",
+      "name": "karaoke_23036_guide.mid",
+      "role": "guide",
+      "sha256": "b9dfbe9e22465b36d8260076a7503da6da3d781859a175c66e5aeddba05d1395"
+    },
+    {
+      "bytes": 2549847,
+      "format": "mp3",
+      "name": "karaoke_23036_guide.mp3",
+      "purpose": "preview",
+      "role": "guide",
+      "sha256": "c4ec482b719b919ddf4cdffae8c0a26cda809dbea66e858a1b8e66fea89bcef0"
+    },
+    {
+      "bytes": 13828,
+      "format": "midi",
+      "name": "karaoke_23036_karaoke.mid",
+      "role": "karaoke",
+      "sha256": "f4cdcc053d03fc622561ae30f3a2ec2a661503260a5c9b33445dc1055f3d1f46"
+    },
+    {
+      "bytes": 2575472,
+      "format": "mp3",
+      "name": "karaoke_23036_karaoke.mp3",
+      "purpose": "preview",
+      "role": "karaoke",
+      "sha256": "8954d2b63aecacc2cdc9372937f98cbb5f227b6179fe855fe849ad06b15113b7"
+    }
+  ],
+  "form": "jpop_short_karaoke",
+  "generated_date": "2026-08-12",
+  "intro_variant": "c",
+  "lead_overrides": {
+    "chorus_shift": 5,
+    "phrase_measures": 2,
+    "register_high": 71,
+    "register_low": 58
+  },
+  "license": {
+    "generated_content": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "mode": "major",
+  "modulation_semitones": 0,
+  "n_measures": 64,
+  "preset": "standard",
+  "screening": {
+    "parts": [
+      {
+        "family": "backing",
+        "flagged": false,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 0,
+        "part": "backing_guitar"
+      },
+      {
+        "family": "bass",
+        "flagged": false,
+        "longest_match_tokens": 14,
+        "min_window_song_count": 23,
+        "n_rare_windows": 0,
+        "n_tokens": 250,
+        "part": "bass"
+      },
+      {
+        "family": "backing",
+        "flagged": false,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 103,
+        "part": "keyboard"
+      },
+      {
+        "family": "lead",
+        "flagged": false,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 313,
+        "part": "lead"
+      }
+    ],
+    "passed": true,
+    "rule": "match_length >= N AND at least one rare window (corpus songs containing the window <= k)",
+    "screener": "scripts/screen_similarity.py (PUB1)",
+    "thresholds": {
+      "max_songs_k": 3,
+      "n_tokens": {
+        "backing": 8,
+        "bass": 19,
+        "classical_cello": 23,
+        "classical_piano": 8,
+        "classical_viola": 17,
+        "classical_violin1": 12,
+        "classical_violin2": 17,
+        "lead": 16
+      },
+      "source": "similarity_threshold.md",
+      "window_n": {
+        "backing": 4,
+        "bass": 8,
+        "classical_cello": 8,
+        "classical_piano": 4,
+        "classical_viola": 8,
+        "classical_violin1": 8,
+        "classical_violin2": 8,
+        "lead": 8
+      }
+    }
+  },
+  "seed": 23036,
+  "track_id": "karaoke_23036",
+  "transpose_semitones": 0,
+  "versions": [
+    "guide",
+    "karaoke"
+  ]
+}

@@ -33,9 +33,12 @@ body:
     attributes:
       label: Seed
       description: >
-        A whole number. The same seed always produces the same track, so this
-        is how you ask for one specific piece. Leave empty to get the next
-        unused seed for the category.
+        A whole number. On the same engine version, the same seed always
+        produces the same track, so this is how you ask for one specific piece.
+        When the engine is improved the same seed can produce a different
+        track; each published track records the engine version it was made
+        with in index.json (engine_commit). Leave empty to get the next unused
+        seed for the category.
       placeholder: "20250"
     validations:
       required: false

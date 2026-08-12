@@ -1,0 +1,117 @@
+{
+  "attribution": [
+    {
+      "component": "drum model training data",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source": "Groove MIDI Dataset (GMD)"
+    }
+  ],
+  "bpm": 144.0,
+  "category": "jpop_3piece",
+  "declared_progression": null,
+  "duration_seconds": 213.333,
+  "engine_commit": "627c3b6+dirty",
+  "files": [
+    {
+      "bytes": 30683,
+      "format": "midi",
+      "name": "jpop_3piece_22020.mid",
+      "role": "main",
+      "sha256": "253b6cc7376c39a3660ffabf75750a47fcc0b8d1b58415cecd3e206effee44cb"
+    },
+    {
+      "bytes": 4851412,
+      "format": "mp3",
+      "name": "jpop_3piece_22020.mp3",
+      "purpose": "preview",
+      "role": "main",
+      "sha256": "a18b782fe7b2662b29f9ce3089fa665b0e636ce2ad1530e0b1d7e8f252627585"
+    }
+  ],
+  "form": "jpop_extended_3piece",
+  "generated_date": "2026-08-11",
+  "intro_variant": "b",
+  "lead_overrides": null,
+  "license": {
+    "generated_content": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "mode": "major",
+  "modulation_semitones": 0,
+  "n_measures": 128,
+  "preset": "standard",
+  "screening": {
+    "parts": [
+      {
+        "family": "backing",
+        "flagged": false,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 0,
+        "part": "backing_guitar"
+      },
+      {
+        "family": "bass",
+        "flagged": false,
+        "longest_match_tokens": 10,
+        "min_window_song_count": 10,
+        "n_rare_windows": 0,
+        "n_tokens": 603,
+        "part": "bass"
+      },
+      {
+        "family": "backing",
+        "flagged": false,
+        "longest_match_tokens": 7,
+        "min_window_song_count": 2,
+        "n_rare_windows": 4,
+        "n_tokens": 244,
+        "part": "keyboard"
+      },
+      {
+        "family": "lead",
+        "flagged": false,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 0,
+        "part": "lead"
+      }
+    ],
+    "passed": true,
+    "rule": "match_length >= N AND at least one rare window (corpus songs containing the window <= k)",
+    "screener": "scripts/screen_similarity.py (PUB1)",
+    "thresholds": {
+      "max_songs_k": 3,
+      "n_tokens": {
+        "backing": 8,
+        "bass": 19,
+        "classical_cello": 23,
+        "classical_piano": 8,
+        "classical_viola": 17,
+        "classical_violin1": 12,
+        "classical_violin2": 17,
+        "lead": 16
+      },
+      "source": "similarity_threshold.md",
+      "window_n": {
+        "backing": 4,
+        "bass": 8,
+        "classical_cello": 8,
+        "classical_piano": 4,
+        "classical_viola": 8,
+        "classical_violin1": 8,
+        "classical_violin2": 8,
+        "lead": 8
+      }
+    }
+  },
+  "seed": 22020,
+  "track_id": "jpop_3piece_22020",
+  "transpose_semitones": 5,
+  "versions": [
+    "main"
+  ]
+}

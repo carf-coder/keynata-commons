@@ -9,28 +9,28 @@
   ],
   "bpm": 132.0,
   "category": "jpop_3piece",
-  "declared_progression": "royal_road",
+  "declared_progression": null,
   "duration_seconds": 174.545,
-  "engine_commit": "18f1ca2+dirty",
+  "engine_commit": "f79fd0c",
   "files": [
     {
-      "bytes": 16882,
+      "bytes": 18707,
       "format": "midi",
       "name": "jpop_3piece_11007.mid",
       "role": "main",
-      "sha256": "308ecd87b69929a977a5fa1a4ef32b29acaeb738e92c91ecde692014ca25af21"
+      "sha256": "5c9f27819b9da958a9eeb36571d0c86d3584357d8b1b3de13ca00ae445e07315"
     },
     {
-      "bytes": 3816361,
+      "bytes": 3886711,
       "format": "mp3",
       "name": "jpop_3piece_11007.mp3",
       "purpose": "preview",
       "role": "main",
-      "sha256": "1d5a94cd3f6544142f9e3c75225523aa4d9bd20aab769f8f535b6a956e0817a0"
+      "sha256": "c80fa6635fb3db4865dd0b2425d0ac167bd7abec1a2f1e209db9836e23539265"
     }
   ],
   "form": "jpop_full_3piece",
-  "generated_date": "2026-08-04",
+  "generated_date": "2026-08-12",
   "intro_variant": "b",
   "lead_overrides": null,
   "license": {
@@ -38,7 +38,7 @@
     "url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "mode": "major",
-  "modulation_semitones": 1,
+  "modulation_semitones": 0,
   "n_measures": 96,
   "preset": "standard",
   "screening": {
@@ -55,10 +55,10 @@
       {
         "family": "bass",
         "flagged": false,
-        "longest_match_tokens": 18,
-        "min_window_song_count": 13,
+        "longest_match_tokens": 15,
+        "min_window_song_count": 11,
         "n_rare_windows": 0,
-        "n_tokens": 372,
+        "n_tokens": 456,
         "part": "bass"
       },
       {
@@ -67,7 +67,7 @@
         "longest_match_tokens": 0,
         "min_window_song_count": null,
         "n_rare_windows": 0,
-        "n_tokens": 94,
+        "n_tokens": 96,
         "part": "keyboard"
       },
       {
