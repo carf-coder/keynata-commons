@@ -11,26 +11,26 @@
   "category": "jpop_3piece",
   "declared_progression": null,
   "duration_seconds": 174.545,
-  "engine_commit": "f79fd0c",
+  "engine_commit": "7d5910b+dirty",
   "files": [
     {
-      "bytes": 18707,
+      "bytes": 21422,
       "format": "midi",
       "name": "jpop_3piece_11007.mid",
       "role": "main",
-      "sha256": "5c9f27819b9da958a9eeb36571d0c86d3584357d8b1b3de13ca00ae445e07315"
+      "sha256": "495b95055466f8a20ce8911bf180f97104e506aa110da70e3a355fdec16a2ba8"
     },
     {
-      "bytes": 3886711,
+      "bytes": 3892869,
       "format": "mp3",
       "name": "jpop_3piece_11007.mp3",
       "purpose": "preview",
       "role": "main",
-      "sha256": "c80fa6635fb3db4865dd0b2425d0ac167bd7abec1a2f1e209db9836e23539265"
+      "sha256": "f7d4ecb9791fdf80557e4bd1ac80607ed31332a4310db484d5e4eb9b3ace2fe7"
     }
   ],
   "form": "jpop_full_3piece",
-  "generated_date": "2026-08-12",
+  "generated_date": "2026-08-13",
   "intro_variant": "b",
   "lead_overrides": null,
   "license": {
@@ -55,19 +55,19 @@
       {
         "family": "bass",
         "flagged": false,
-        "longest_match_tokens": 15,
-        "min_window_song_count": 11,
+        "longest_match_tokens": 17,
+        "min_window_song_count": 12,
         "n_rare_windows": 0,
-        "n_tokens": 456,
+        "n_tokens": 407,
         "part": "bass"
       },
       {
         "family": "backing",
         "flagged": false,
-        "longest_match_tokens": 0,
-        "min_window_song_count": null,
-        "n_rare_windows": 0,
-        "n_tokens": 96,
+        "longest_match_tokens": 4,
+        "min_window_song_count": 1,
+        "n_rare_windows": 1,
+        "n_tokens": 230,
         "part": "keyboard"
       },
       {

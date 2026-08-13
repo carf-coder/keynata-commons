@@ -9,43 +9,43 @@
   ],
   "bpm": 148.0,
   "category": "karaoke",
-  "declared_progression": "canon",
+  "declared_progression": null,
   "duration_seconds": 155.676,
-  "engine_commit": "627c3b6+dirty",
+  "engine_commit": "7d5910b+dirty",
   "files": [
     {
-      "bytes": 25838,
+      "bytes": 26811,
       "format": "midi",
       "name": "karaoke_23023_guide.mid",
       "role": "guide",
-      "sha256": "71f6476a0f790aaedb24b0fed1c3ad346acdd186cc40e094c7e99961a5dbebdf"
+      "sha256": "e665879cbe1761ef2daa69fc255521db349af65df6b1427fb224fdd587d717c8"
     },
     {
-      "bytes": 3554808,
+      "bytes": 3559742,
       "format": "mp3",
       "name": "karaoke_23023_guide.mp3",
       "purpose": "preview",
       "role": "guide",
-      "sha256": "d84f49fc18bafb687361eb6db8726b232219872f5e9e5ff86fe5366b6bc30807"
+      "sha256": "97c5b2d3f798e9932b383565d74e7a1b20ab32cb38a794211b1082f4d0ee59e5"
     },
     {
-      "bytes": 21726,
+      "bytes": 22559,
       "format": "midi",
       "name": "karaoke_23023_karaoke.mid",
       "role": "karaoke",
-      "sha256": "34636d84cf9c458306055590e593bbc5a18feed12fa884f903729f36d1a168e1"
+      "sha256": "3e9b20fc4ae1707ffbff3f09b565752a3d5874bffe4c1a021a19a4588d978403"
     },
     {
-      "bytes": 3580939,
+      "bytes": 3575250,
       "format": "mp3",
       "name": "karaoke_23023_karaoke.mp3",
       "purpose": "preview",
       "role": "karaoke",
-      "sha256": "1ec45437ee747eefd081273eb8043eb8a628c3b2ab9bc72ead3e916fa41cdc5c"
+      "sha256": "3fd2dafb8bdc423e6d7f79b98af67a731a61e0be3390b4854994330bded0a7b5"
     }
   ],
   "form": "jpop_full_karaoke",
-  "generated_date": "2026-08-11",
+  "generated_date": "2026-08-13",
   "intro_variant": "b",
   "lead_overrides": {
     "chorus_shift": 5,
@@ -75,28 +75,28 @@
       {
         "family": "bass",
         "flagged": false,
-        "longest_match_tokens": 11,
-        "min_window_song_count": 2,
-        "n_rare_windows": 4,
-        "n_tokens": 361,
+        "longest_match_tokens": 13,
+        "min_window_song_count": 5,
+        "n_rare_windows": 0,
+        "n_tokens": 386,
         "part": "bass"
       },
       {
         "family": "backing",
         "flagged": false,
         "longest_match_tokens": 6,
-        "min_window_song_count": 6,
-        "n_rare_windows": 0,
-        "n_tokens": 205,
+        "min_window_song_count": 1,
+        "n_rare_windows": 3,
+        "n_tokens": 302,
         "part": "keyboard"
       },
       {
         "family": "lead",
         "flagged": false,
-        "longest_match_tokens": 0,
-        "min_window_song_count": null,
-        "n_rare_windows": 0,
-        "n_tokens": 421,
+        "longest_match_tokens": 8,
+        "min_window_song_count": 3,
+        "n_rare_windows": 1,
+        "n_tokens": 436,
         "part": "lead"
       }
     ],

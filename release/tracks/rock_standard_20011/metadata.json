@@ -10,27 +10,27 @@
   "bpm": 104.0,
   "category": "rock_standard",
   "declared_progression": null,
-  "duration_seconds": 240.0,
-  "engine_commit": "14d1899+dirty",
+  "duration_seconds": 120.0,
+  "engine_commit": "7d5910b+dirty",
   "files": [
     {
-      "bytes": 33419,
+      "bytes": 15683,
       "format": "midi",
       "name": "rock_standard_20011.mid",
       "role": "main",
-      "sha256": "180d35d8bab6980ae6543a3b52f5a137b59481ecf889f4b4c43e5355a9e3930b"
+      "sha256": "8e5da37950bfc425ab67c9e0e47b031b4fed1d1974775a3c11192c20771f7e8b"
     },
     {
-      "bytes": 5525948,
+      "bytes": 2765218,
       "format": "mp3",
       "name": "rock_standard_20011.mp3",
       "purpose": "preview",
       "role": "main",
-      "sha256": "7ddc08addd7f6f7b51c1d6af82ba83fa9e347c45dd5c4617cc1d90ab4e88d135"
+      "sha256": "fceaadf5b173e864391367319f7c047f0218bfc1a3172c785e744946a7719378"
     }
   ],
-  "form": "rock_long",
-  "generated_date": "2026-08-10",
+  "form": "standard",
+  "generated_date": "2026-08-13",
   "intro_variant": "a",
   "lead_overrides": null,
   "license": {
@@ -39,7 +39,7 @@
   },
   "mode": "major",
   "modulation_semitones": 0,
-  "n_measures": 104,
+  "n_measures": 52,
   "preset": "standard",
   "screening": {
     "parts": [
@@ -49,25 +49,25 @@
         "longest_match_tokens": 0,
         "min_window_song_count": null,
         "n_rare_windows": 0,
-        "n_tokens": 415,
+        "n_tokens": 174,
         "part": "backing_guitar"
       },
       {
         "family": "bass",
         "flagged": false,
-        "longest_match_tokens": 16,
-        "min_window_song_count": 14,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
         "n_rare_windows": 0,
-        "n_tokens": 417,
+        "n_tokens": 182,
         "part": "bass"
       },
       {
         "family": "backing",
         "flagged": false,
-        "longest_match_tokens": 6,
-        "min_window_song_count": 1,
-        "n_rare_windows": 2,
-        "n_tokens": 123,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 137,
         "part": "keyboard"
       },
       {
@@ -76,7 +76,7 @@
         "longest_match_tokens": 8,
         "min_window_song_count": 1,
         "n_rare_windows": 1,
-        "n_tokens": 272,
+        "n_tokens": 151,
         "part": "lead"
       }
     ],

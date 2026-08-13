@@ -11,33 +11,33 @@
   "category": "rock_standard",
   "declared_progression": null,
   "duration_seconds": 107.586,
-  "engine_commit": "18f1ca2+dirty",
+  "engine_commit": "7d5910b+dirty",
   "files": [
     {
-      "bytes": 18366,
+      "bytes": 20403,
       "format": "midi",
       "name": "rock_standard_10205.mid",
       "role": "main",
-      "sha256": "8a3a8e6b37bb6a15a8498dcda3cd821bb0e72d84be42bb00fc7c0c90565978ca"
+      "sha256": "72e151bdeb960e05a99f2ff26b717efb4f8702f7fa02690edd79fb59576ecec5"
     },
     {
-      "bytes": 2431977,
+      "bytes": 2479312,
       "format": "mp3",
       "name": "rock_standard_10205.mp3",
       "purpose": "preview",
       "role": "main",
-      "sha256": "94f73447d2994486441346ebc8d9e066a3f40919534a32dabd879e3d56560f7d"
+      "sha256": "a90f22a56a80836858ff4c4bf3315c498c00426217a96349f8770c567a8ffdc8"
     }
   ],
   "form": "standard",
-  "generated_date": "2026-08-04",
+  "generated_date": "2026-08-13",
   "intro_variant": "a",
   "lead_overrides": null,
   "license": {
     "generated_content": "CC0-1.0",
     "url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
-  "mode": "minor",
+  "mode": "major",
   "modulation_semitones": 0,
   "n_measures": 52,
   "preset": "standard",
@@ -46,9 +46,9 @@
       {
         "family": "backing",
         "flagged": false,
-        "longest_match_tokens": 5,
-        "min_window_song_count": 1,
-        "n_rare_windows": 2,
+        "longest_match_tokens": 4,
+        "min_window_song_count": 2,
+        "n_rare_windows": 1,
         "n_tokens": 284,
         "part": "backing_guitar"
       },
@@ -56,27 +56,27 @@
         "family": "bass",
         "flagged": false,
         "longest_match_tokens": 9,
-        "min_window_song_count": 13,
-        "n_rare_windows": 0,
-        "n_tokens": 202,
+        "min_window_song_count": 1,
+        "n_rare_windows": 2,
+        "n_tokens": 174,
         "part": "bass"
       },
       {
         "family": "backing",
         "flagged": false,
-        "longest_match_tokens": 5,
-        "min_window_song_count": 2,
-        "n_rare_windows": 1,
-        "n_tokens": 56,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 131,
         "part": "keyboard"
       },
       {
         "family": "lead",
         "flagged": false,
-        "longest_match_tokens": 12,
-        "min_window_song_count": 1,
-        "n_rare_windows": 3,
-        "n_tokens": 137,
+        "longest_match_tokens": 10,
+        "min_window_song_count": 9,
+        "n_rare_windows": 0,
+        "n_tokens": 162,
         "part": "lead"
       }
     ],

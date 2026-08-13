@@ -11,26 +11,26 @@
   "category": "rock_standard",
   "declared_progression": null,
   "duration_seconds": 120.0,
-  "engine_commit": "14d1899+dirty",
+  "engine_commit": "7d5910b+dirty",
   "files": [
     {
-      "bytes": 18088,
+      "bytes": 19533,
       "format": "midi",
       "name": "rock_standard_20012.mid",
       "role": "main",
-      "sha256": "9a72c53b277dec8f98a6a7b90c0635b2b2296e648a3a0ff7daf195e3e885c129"
+      "sha256": "a4d643ad29eb5ea9394a901ad93de7f8431bf3d1e693fb1107fb8aee582c5ca9"
     },
     {
-      "bytes": 2699866,
+      "bytes": 2723122,
       "format": "mp3",
       "name": "rock_standard_20012.mp3",
       "purpose": "preview",
       "role": "main",
-      "sha256": "f591a5663803920e944c5df435a2a639edc1d8c5057fac209354a1286252f327"
+      "sha256": "f1065c96279fe9eeda44f19b91ca64f50cf076166c14a3e044767f4e74a9af8f"
     }
   ],
   "form": "standard",
-  "generated_date": "2026-08-10",
+  "generated_date": "2026-08-13",
   "intro_variant": "a",
   "lead_overrides": null,
   "license": {
@@ -55,19 +55,19 @@
       {
         "family": "bass",
         "flagged": false,
-        "longest_match_tokens": 16,
-        "min_window_song_count": 14,
+        "longest_match_tokens": 8,
+        "min_window_song_count": 10,
         "n_rare_windows": 0,
-        "n_tokens": 195,
+        "n_tokens": 187,
         "part": "bass"
       },
       {
         "family": "backing",
         "flagged": false,
-        "longest_match_tokens": 0,
-        "min_window_song_count": null,
-        "n_rare_windows": 0,
-        "n_tokens": 74,
+        "longest_match_tokens": 6,
+        "min_window_song_count": 1,
+        "n_rare_windows": 3,
+        "n_tokens": 162,
         "part": "keyboard"
       },
       {

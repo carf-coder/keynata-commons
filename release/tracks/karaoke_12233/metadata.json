@@ -11,41 +11,41 @@
   "category": "karaoke",
   "declared_progression": null,
   "duration_seconds": 169.412,
-  "engine_commit": "f79fd0c",
+  "engine_commit": "7d5910b+dirty",
   "files": [
     {
-      "bytes": 27795,
+      "bytes": 27763,
       "format": "midi",
       "name": "karaoke_12233_guide.mid",
       "role": "guide",
-      "sha256": "78b05d1730c96c31fef6496ad85aa3fda6a69c9cdfd8c3c468e9fda8df9b1345"
+      "sha256": "2a02e9d749599bedadecb0b7a3cbbeb408c087364f524abaeeaa60db473151ce"
     },
     {
-      "bytes": 3781325,
+      "bytes": 3807062,
       "format": "mp3",
       "name": "karaoke_12233_guide.mp3",
       "purpose": "preview",
       "role": "guide",
-      "sha256": "f65ecfee042c440679af987e32586f76c8c0118ca95f910b945e5ed5f67ef925"
+      "sha256": "58f89215eb0946d63eb59535013d4df98a5fd0c38b0fe5e4b922aeb2b8e5e4fa"
     },
     {
-      "bytes": 22662,
+      "bytes": 22648,
       "format": "midi",
       "name": "karaoke_12233_karaoke.mid",
       "role": "karaoke",
-      "sha256": "c831d00ac01751c54a4155741edeec5ea158f481ddba12790dbc35a9645bb370"
+      "sha256": "b11e2fa4e3bd3170a7105a5c778103bbc2172eaadd9bb258bf620dfb958cb040"
     },
     {
-      "bytes": 3741013,
+      "bytes": 3844090,
       "format": "mp3",
       "name": "karaoke_12233_karaoke.mp3",
       "purpose": "preview",
       "role": "karaoke",
-      "sha256": "84e0bddb53020846faece01db3710edf09f77fbba54e6a63eb7e6628af680ccc"
+      "sha256": "f091c62590896d68e6b2f277c4da216c822cd9ac48545494b4a3e295faa6e70a"
     }
   ],
   "form": "jpop_full_karaoke",
-  "generated_date": "2026-08-12",
+  "generated_date": "2026-08-13",
   "intro_variant": "c",
   "lead_overrides": {
     "chorus_shift": 4,
@@ -75,19 +75,19 @@
       {
         "family": "bass",
         "flagged": false,
-        "longest_match_tokens": 11,
-        "min_window_song_count": 25,
+        "longest_match_tokens": 12,
+        "min_window_song_count": 9,
         "n_rare_windows": 0,
-        "n_tokens": 456,
+        "n_tokens": 420,
         "part": "bass"
       },
       {
         "family": "backing",
         "flagged": false,
-        "longest_match_tokens": 5,
-        "min_window_song_count": 1,
-        "n_rare_windows": 2,
-        "n_tokens": 200,
+        "longest_match_tokens": 4,
+        "min_window_song_count": 3,
+        "n_rare_windows": 1,
+        "n_tokens": 253,
         "part": "keyboard"
       },
       {

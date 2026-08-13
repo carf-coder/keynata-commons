@@ -27,12 +27,12 @@
       "source": "Groove MIDI Dataset (GMD)"
     }
   ],
-  "engine_commit": "f79fd0c",
+  "engine_commit": "7d5910b+dirty",
   "license": {
     "generated_content": "CC0-1.0",
     "url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
-  "n_tracks": 183,
+  "n_tracks": 203,
   "tracks": [
     {
       "bpm": 123.0,
@@ -581,6 +581,35 @@
       "seed": 24036,
       "tonic": "E",
       "track_id": "classical_duo_24036",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 60.0,
+      "category": "classical_duo",
+      "declared_progression": null,
+      "duration_seconds": 96.0,
+      "engine_commit": "f79fd0c+dirty",
+      "files": [
+        "classical_duo_24037.mid",
+        "classical_duo_24037.mp3"
+      ],
+      "form": "ABA",
+      "generated_date": "2026-08-13",
+      "instrumentation": [
+        "violin",
+        "cello"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 24037,
+      "tonic": "B",
+      "track_id": "classical_duo_24037",
       "versions": [
         "main"
       ]
@@ -1842,6 +1871,161 @@
       ]
     },
     {
+      "bpm": 125.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 322.56,
+      "engine_commit": "f79fd0c+dirty",
+      "files": [
+        "classical_quartet_25037.mid",
+        "classical_quartet_25037.mp3"
+      ],
+      "form": "RONDO7",
+      "generated_date": "2026-08-13",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "特長",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 24,
+      "seed": 25037,
+      "tonic": "C",
+      "track_id": "classical_quartet_25037",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 66.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 58.182,
+      "engine_commit": "f79fd0c+dirty",
+      "files": [
+        "classical_quartet_25039.mid",
+        "classical_quartet_25039.mp3"
+      ],
+      "form": "AB",
+      "generated_date": "2026-08-13",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "短",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 8,
+      "seed": 25039,
+      "tonic": "C",
+      "track_id": "classical_quartet_25039",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 152.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 157.895,
+      "engine_commit": "f79fd0c+dirty",
+      "files": [
+        "classical_quartet_25040.mid",
+        "classical_quartet_25040.mp3"
+      ],
+      "form": "RONDO5",
+      "generated_date": "2026-08-13",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "長",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 20,
+      "seed": 25040,
+      "tonic": "F",
+      "track_id": "classical_quartet_25040",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 108.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 248.889,
+      "engine_commit": "f79fd0c+dirty",
+      "files": [
+        "classical_quartet_25041.mid",
+        "classical_quartet_25041.mp3"
+      ],
+      "form": "RONDO7",
+      "generated_date": "2026-08-13",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "長",
+      "meter_beats": 4,
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 16,
+      "seed": 25041,
+      "tonic": "C",
+      "track_id": "classical_quartet_25041",
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 92.0,
+      "category": "classical_quartet",
+      "declared_progression": null,
+      "duration_seconds": 129.13,
+      "engine_commit": "f79fd0c+dirty",
+      "files": [
+        "classical_quartet_25042.mid",
+        "classical_quartet_25042.mp3"
+      ],
+      "form": "SONATINA",
+      "generated_date": "2026-08-13",
+      "instrumentation": [
+        "violin",
+        "cello",
+        "viola",
+        "violin2"
+      ],
+      "length_tier": "中",
+      "meter_beats": 3,
+      "mode": "minor",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "section_length": 12,
+      "seed": 25042,
+      "tonic": "D",
+      "track_id": "classical_quartet_25042",
+      "versions": [
+        "main"
+      ]
+    },
+    {
       "bpm": 96.0,
       "category": "classical_quartet",
       "declared_progression": null,
@@ -2311,13 +2495,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 155.676,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11001.mid",
         "jpop_3piece_11001.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2334,13 +2518,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 180.0,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11004.mid",
         "jpop_3piece_11004.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2355,18 +2539,18 @@
     {
       "bpm": 136.0,
       "category": "jpop_3piece",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 169.412,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11005.mid",
         "jpop_3piece_11005.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "c",
       "mode": "major",
-      "modulation_semitones": 1,
+      "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 11005,
       "track_id": "jpop_3piece_11005",
@@ -2378,18 +2562,18 @@
     {
       "bpm": 136.0,
       "category": "jpop_3piece",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 169.412,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11006.mid",
         "jpop_3piece_11006.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
-      "modulation_semitones": 1,
+      "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 11006,
       "track_id": "jpop_3piece_11006",
@@ -2403,13 +2587,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 174.545,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11007.mid",
         "jpop_3piece_11007.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2426,13 +2610,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 160.0,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11302.mid",
         "jpop_3piece_11302.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2472,13 +2656,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 169.412,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11311.mid",
         "jpop_3piece_11311.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2495,13 +2679,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 160.0,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11316.mid",
         "jpop_3piece_11316.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2564,13 +2748,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 174.545,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11627.mid",
         "jpop_3piece_11627.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2585,15 +2769,15 @@
     {
       "bpm": 132.0,
       "category": "jpop_3piece",
-      "declared_progression": "canon",
+      "declared_progression": null,
       "duration_seconds": 174.545,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11635.mid",
         "jpop_3piece_11635.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2610,13 +2794,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 160.0,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11901.mid",
         "jpop_3piece_11901.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2679,13 +2863,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 155.676,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_11907.mid",
         "jpop_3piece_11907.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2748,13 +2932,13 @@
       "category": "jpop_3piece",
       "declared_progression": null,
       "duration_seconds": 151.579,
-      "engine_commit": "14d1899+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_22016.mid",
         "jpop_3piece_22016.mp3"
       ],
       "form": "jpop_full_3piece",
-      "generated_date": "2026-08-10",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2769,15 +2953,15 @@
     {
       "bpm": 144.0,
       "category": "jpop_3piece",
-      "declared_progression": "komuro",
-      "duration_seconds": 213.333,
-      "engine_commit": "14d1899+dirty",
+      "declared_progression": null,
+      "duration_seconds": 160.0,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_22018.mid",
         "jpop_3piece_22018.mp3"
       ],
-      "form": "jpop_extended_3piece",
-      "generated_date": "2026-08-10",
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2793,14 +2977,14 @@
       "bpm": 144.0,
       "category": "jpop_3piece",
       "declared_progression": null,
-      "duration_seconds": 213.333,
-      "engine_commit": "627c3b6+dirty",
+      "duration_seconds": 160.0,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_22020.mid",
         "jpop_3piece_22020.mp3"
       ],
-      "form": "jpop_extended_3piece",
-      "generated_date": "2026-08-11",
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2815,15 +2999,15 @@
     {
       "bpm": 148.0,
       "category": "jpop_3piece",
-      "declared_progression": "canon",
-      "duration_seconds": 207.568,
-      "engine_commit": "627c3b6+dirty",
+      "declared_progression": null,
+      "duration_seconds": 155.676,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_22023.mid",
         "jpop_3piece_22023.mp3"
       ],
-      "form": "jpop_extended_3piece",
-      "generated_date": "2026-08-11",
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2839,14 +3023,14 @@
       "bpm": 140.0,
       "category": "jpop_3piece",
       "declared_progression": null,
-      "duration_seconds": 109.714,
-      "engine_commit": "627c3b6+dirty",
+      "duration_seconds": 164.571,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_22024.mid",
         "jpop_3piece_22024.mp3"
       ],
-      "form": "jpop_short_3piece",
-      "generated_date": "2026-08-11",
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2861,15 +3045,15 @@
     {
       "bpm": 132.0,
       "category": "jpop_3piece",
-      "declared_progression": "royal_road",
-      "duration_seconds": 116.364,
-      "engine_commit": "627c3b6+dirty",
+      "declared_progression": null,
+      "duration_seconds": 174.545,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_22025.mid",
         "jpop_3piece_22025.mp3"
       ],
-      "form": "jpop_short_3piece",
-      "generated_date": "2026-08-11",
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2884,15 +3068,15 @@
     {
       "bpm": 132.0,
       "category": "jpop_3piece",
-      "declared_progression": "canon",
-      "duration_seconds": 116.364,
-      "engine_commit": "627c3b6+dirty",
+      "declared_progression": null,
+      "duration_seconds": 174.545,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_22027.mid",
         "jpop_3piece_22027.mp3"
       ],
-      "form": "jpop_short_3piece",
-      "generated_date": "2026-08-11",
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2907,15 +3091,15 @@
     {
       "bpm": 132.0,
       "category": "jpop_3piece",
-      "declared_progression": "canon",
-      "duration_seconds": 116.364,
-      "engine_commit": "474ec27+dirty",
+      "declared_progression": null,
+      "duration_seconds": 174.545,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_22031.mid",
         "jpop_3piece_22031.mp3"
       ],
-      "form": "jpop_short_3piece",
-      "generated_date": "2026-08-12",
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2931,14 +3115,14 @@
       "bpm": 136.0,
       "category": "jpop_3piece",
       "declared_progression": null,
-      "duration_seconds": 112.941,
-      "engine_commit": "474ec27+dirty",
+      "duration_seconds": 169.412,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_22032.mid",
         "jpop_3piece_22032.mp3"
       ],
-      "form": "jpop_short_3piece",
-      "generated_date": "2026-08-12",
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2954,14 +3138,14 @@
       "bpm": 128.0,
       "category": "jpop_3piece",
       "declared_progression": null,
-      "duration_seconds": 120.0,
-      "engine_commit": "474ec27+dirty",
+      "duration_seconds": 180.0,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "jpop_3piece_22036.mid",
         "jpop_3piece_22036.mp3"
       ],
-      "form": "jpop_short_3piece",
-      "generated_date": "2026-08-12",
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -2969,6 +3153,144 @@
       "seed": 22036,
       "track_id": "jpop_3piece_22036",
       "transpose_semitones": 1,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 144.0,
+      "category": "jpop_3piece",
+      "declared_progression": null,
+      "duration_seconds": 160.0,
+      "engine_commit": "7d5910b+dirty",
+      "files": [
+        "jpop_3piece_22037.mid",
+        "jpop_3piece_22037.mp3"
+      ],
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22037,
+      "track_id": "jpop_3piece_22037",
+      "transpose_semitones": -3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 140.0,
+      "category": "jpop_3piece",
+      "declared_progression": "komuro",
+      "duration_seconds": 219.429,
+      "engine_commit": "f79fd0c+dirty",
+      "files": [
+        "jpop_3piece_22038.mid",
+        "jpop_3piece_22038.mp3"
+      ],
+      "form": "jpop_extended_3piece",
+      "generated_date": "2026-08-13",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22038,
+      "track_id": "jpop_3piece_22038",
+      "transpose_semitones": 4,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 132.0,
+      "category": "jpop_3piece",
+      "declared_progression": null,
+      "duration_seconds": 174.545,
+      "engine_commit": "7d5910b+dirty",
+      "files": [
+        "jpop_3piece_22040.mid",
+        "jpop_3piece_22040.mp3"
+      ],
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22040,
+      "track_id": "jpop_3piece_22040",
+      "transpose_semitones": 5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 128.0,
+      "category": "jpop_3piece",
+      "declared_progression": null,
+      "duration_seconds": 180.0,
+      "engine_commit": "7d5910b+dirty",
+      "files": [
+        "jpop_3piece_22041.mid",
+        "jpop_3piece_22041.mp3"
+      ],
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22041,
+      "track_id": "jpop_3piece_22041",
+      "transpose_semitones": 3,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 144.0,
+      "category": "jpop_3piece",
+      "declared_progression": null,
+      "duration_seconds": 160.0,
+      "engine_commit": "7d5910b+dirty",
+      "files": [
+        "jpop_3piece_22043.mid",
+        "jpop_3piece_22043.mp3"
+      ],
+      "form": "jpop_full_3piece",
+      "generated_date": "2026-08-13",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22043,
+      "track_id": "jpop_3piece_22043",
+      "transpose_semitones": 6,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 128.0,
+      "category": "jpop_3piece",
+      "declared_progression": null,
+      "duration_seconds": 120.0,
+      "engine_commit": "f79fd0c+dirty",
+      "files": [
+        "jpop_3piece_22044.mid",
+        "jpop_3piece_22044.mp3"
+      ],
+      "form": "jpop_short_3piece",
+      "generated_date": "2026-08-13",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 22044,
+      "track_id": "jpop_3piece_22044",
+      "transpose_semitones": -3,
       "versions": [
         "main"
       ]
@@ -3004,7 +3326,7 @@
       "category": "karaoke",
       "declared_progression": null,
       "duration_seconds": 151.579,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_12208_guide.mid",
         "karaoke_12208_guide.mp3",
@@ -3012,7 +3334,7 @@
         "karaoke_12208_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3030,7 +3352,7 @@
       "category": "karaoke",
       "declared_progression": null,
       "duration_seconds": 169.412,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_12233_guide.mid",
         "karaoke_12233_guide.mp3",
@@ -3038,7 +3360,7 @@
         "karaoke_12233_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3082,7 +3404,7 @@
       "category": "karaoke",
       "declared_progression": null,
       "duration_seconds": 151.579,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_12274_guide.mid",
         "karaoke_12274_guide.mp3",
@@ -3090,7 +3412,7 @@
         "karaoke_12274_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3186,7 +3508,7 @@
       "category": "karaoke",
       "declared_progression": null,
       "duration_seconds": 180.0,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_12627_guide.mid",
         "karaoke_12627_guide.mp3",
@@ -3194,7 +3516,7 @@
         "karaoke_12627_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3212,7 +3534,7 @@
       "category": "karaoke",
       "declared_progression": null,
       "duration_seconds": 180.0,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_12672_guide.mid",
         "karaoke_12672_guide.mp3",
@@ -3220,7 +3542,7 @@
         "karaoke_12672_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3264,7 +3586,7 @@
       "category": "karaoke",
       "declared_progression": null,
       "duration_seconds": 180.0,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_12737_guide.mid",
         "karaoke_12737_guide.mp3",
@@ -3272,7 +3594,7 @@
         "karaoke_12737_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3316,7 +3638,7 @@
       "category": "karaoke",
       "declared_progression": null,
       "duration_seconds": 174.545,
-      "engine_commit": "f79fd0c",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23000_guide.mid",
         "karaoke_23000_guide.mp3",
@@ -3324,7 +3646,7 @@
         "karaoke_23000_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3340,17 +3662,17 @@
     {
       "bpm": 128.0,
       "category": "karaoke",
-      "declared_progression": "royal_road",
-      "duration_seconds": 120.0,
-      "engine_commit": "faf31b1+dirty",
+      "declared_progression": null,
+      "duration_seconds": 180.0,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23009_guide.mid",
         "karaoke_23009_guide.mp3",
         "karaoke_23009_karaoke.mid",
         "karaoke_23009_karaoke.mp3"
       ],
-      "form": "jpop_short_karaoke",
-      "generated_date": "2026-08-09",
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3366,17 +3688,17 @@
     {
       "bpm": 128.0,
       "category": "karaoke",
-      "declared_progression": "canon",
-      "duration_seconds": 120.0,
-      "engine_commit": "14d1899+dirty",
+      "declared_progression": null,
+      "duration_seconds": 180.0,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23015_guide.mid",
         "karaoke_23015_guide.mp3",
         "karaoke_23015_karaoke.mid",
         "karaoke_23015_karaoke.mp3"
       ],
-      "form": "jpop_short_karaoke",
-      "generated_date": "2026-08-10",
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3394,7 +3716,7 @@
       "category": "karaoke",
       "declared_progression": null,
       "duration_seconds": 155.676,
-      "engine_commit": "14d1899+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23016_guide.mid",
         "karaoke_23016_guide.mp3",
@@ -3402,7 +3724,7 @@
         "karaoke_23016_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-10",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3418,9 +3740,9 @@
     {
       "bpm": 144.0,
       "category": "karaoke",
-      "declared_progression": "royal_road",
+      "declared_progression": null,
       "duration_seconds": 160.0,
-      "engine_commit": "14d1899+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23017_guide.mid",
         "karaoke_23017_guide.mp3",
@@ -3428,7 +3750,7 @@
         "karaoke_23017_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-10",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3444,9 +3766,9 @@
     {
       "bpm": 148.0,
       "category": "karaoke",
-      "declared_progression": "komuro",
+      "declared_progression": null,
       "duration_seconds": 155.676,
-      "engine_commit": "627c3b6+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23022_guide.mid",
         "karaoke_23022_guide.mp3",
@@ -3454,7 +3776,7 @@
         "karaoke_23022_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-11",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3470,9 +3792,9 @@
     {
       "bpm": 148.0,
       "category": "karaoke",
-      "declared_progression": "canon",
+      "declared_progression": null,
       "duration_seconds": 155.676,
-      "engine_commit": "627c3b6+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23023_guide.mid",
         "karaoke_23023_guide.mp3",
@@ -3480,7 +3802,7 @@
         "karaoke_23023_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-11",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3522,17 +3844,17 @@
     {
       "bpm": 148.0,
       "category": "karaoke",
-      "declared_progression": "komuro",
-      "duration_seconds": 103.784,
-      "engine_commit": "627c3b6+dirty",
+      "declared_progression": null,
+      "duration_seconds": 155.676,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23026_guide.mid",
         "karaoke_23026_guide.mp3",
         "karaoke_23026_karaoke.mid",
         "karaoke_23026_karaoke.mp3"
       ],
-      "form": "jpop_short_karaoke",
-      "generated_date": "2026-08-11",
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3548,17 +3870,17 @@
     {
       "bpm": 144.0,
       "category": "karaoke",
-      "declared_progression": "canon",
-      "duration_seconds": 106.667,
-      "engine_commit": "627c3b6+dirty",
+      "declared_progression": null,
+      "duration_seconds": 160.0,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23027_guide.mid",
         "karaoke_23027_guide.mp3",
         "karaoke_23027_karaoke.mid",
         "karaoke_23027_karaoke.mp3"
       ],
-      "form": "jpop_short_karaoke",
-      "generated_date": "2026-08-11",
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-13",
       "intro_variant": "b",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3576,7 +3898,7 @@
       "category": "karaoke",
       "declared_progression": null,
       "duration_seconds": 151.579,
-      "engine_commit": "627c3b6+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23028_guide.mid",
         "karaoke_23028_guide.mp3",
@@ -3584,7 +3906,7 @@
         "karaoke_23028_karaoke.mp3"
       ],
       "form": "jpop_full_karaoke",
-      "generated_date": "2026-08-11",
+      "generated_date": "2026-08-13",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3652,17 +3974,17 @@
     {
       "bpm": 132.0,
       "category": "karaoke",
-      "declared_progression": "canon",
-      "duration_seconds": 116.364,
-      "engine_commit": "474ec27+dirty",
+      "declared_progression": null,
+      "duration_seconds": 174.545,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23035_guide.mid",
         "karaoke_23035_guide.mp3",
         "karaoke_23035_karaoke.mid",
         "karaoke_23035_karaoke.mp3"
       ],
-      "form": "jpop_short_karaoke",
-      "generated_date": "2026-08-12",
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-13",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3679,16 +4001,16 @@
       "bpm": 132.0,
       "category": "karaoke",
       "declared_progression": null,
-      "duration_seconds": 116.364,
-      "engine_commit": "474ec27+dirty",
+      "duration_seconds": 174.545,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "karaoke_23036_guide.mid",
         "karaoke_23036_guide.mp3",
         "karaoke_23036_karaoke.mid",
         "karaoke_23036_karaoke.mp3"
       ],
-      "form": "jpop_short_karaoke",
-      "generated_date": "2026-08-12",
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-13",
       "intro_variant": "c",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3702,17 +4024,95 @@
       ]
     },
     {
+      "bpm": 140.0,
+      "category": "karaoke",
+      "declared_progression": null,
+      "duration_seconds": 164.571,
+      "engine_commit": "7d5910b+dirty",
+      "files": [
+        "karaoke_23037_guide.mid",
+        "karaoke_23037_guide.mp3",
+        "karaoke_23037_karaoke.mid",
+        "karaoke_23037_karaoke.mp3"
+      ],
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-13",
+      "intro_variant": "b",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23037,
+      "track_id": "karaoke_23037",
+      "transpose_semitones": 5,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 152.0,
+      "category": "karaoke",
+      "declared_progression": null,
+      "duration_seconds": 151.579,
+      "engine_commit": "f79fd0c+dirty",
+      "files": [
+        "karaoke_23040_guide.mid",
+        "karaoke_23040_guide.mp3",
+        "karaoke_23040_karaoke.mid",
+        "karaoke_23040_karaoke.mp3"
+      ],
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-13",
+      "intro_variant": "c",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23040,
+      "track_id": "karaoke_23040",
+      "transpose_semitones": 0,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
+      "bpm": 144.0,
+      "category": "karaoke",
+      "declared_progression": null,
+      "duration_seconds": 160.0,
+      "engine_commit": "7d5910b+dirty",
+      "files": [
+        "karaoke_23042_guide.mid",
+        "karaoke_23042_guide.mp3",
+        "karaoke_23042_karaoke.mid",
+        "karaoke_23042_karaoke.mp3"
+      ],
+      "form": "jpop_full_karaoke",
+      "generated_date": "2026-08-13",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 23042,
+      "track_id": "karaoke_23042",
+      "transpose_semitones": -5,
+      "versions": [
+        "guide",
+        "karaoke"
+      ]
+    },
+    {
       "bpm": 176.0,
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 70.909,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_10403.mid",
         "rock_intense_10403.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3729,13 +4129,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 78.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_10405.mid",
         "rock_intense_10405.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3752,13 +4152,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 74.286,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_10406.mid",
         "rock_intense_10406.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3775,13 +4175,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 82.105,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_10407.mid",
         "rock_intense_10407.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3798,13 +4198,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 78.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_10411.mid",
         "rock_intense_10411.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3844,13 +4244,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 76.098,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_10419.mid",
         "rock_intense_10419.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3867,13 +4267,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 74.286,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_10420.mid",
         "rock_intense_10420.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3913,13 +4313,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 74.286,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_10423.mid",
         "rock_intense_10423.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -3959,13 +4359,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 70.909,
-      "engine_commit": "faf31b1+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_21004.mid",
         "rock_intense_21004.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-09",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4005,13 +4405,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 78.0,
-      "engine_commit": "14d1899+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_21016.mid",
         "rock_intense_21016.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-10",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4074,13 +4474,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 70.909,
-      "engine_commit": "474ec27+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_21030.mid",
         "rock_intense_21030.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4097,13 +4497,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 82.105,
-      "engine_commit": "474ec27+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_21033.mid",
         "rock_intense_21033.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4120,13 +4520,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 70.909,
-      "engine_commit": "474ec27+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_21035.mid",
         "rock_intense_21035.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4143,13 +4543,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 78.0,
-      "engine_commit": "474ec27+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_21036.mid",
         "rock_intense_21036.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4166,13 +4566,13 @@
       "category": "rock_intense",
       "declared_progression": null,
       "duration_seconds": 78.0,
-      "engine_commit": "474ec27+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_intense_21037.mid",
         "rock_intense_21037.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4180,6 +4580,52 @@
       "seed": 21037,
       "track_id": "rock_intense_21037",
       "transpose_semitones": -4,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 164.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 76.098,
+      "engine_commit": "7d5910b+dirty",
+      "files": [
+        "rock_intense_21043.mid",
+        "rock_intense_21043.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-13",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21043,
+      "track_id": "rock_intense_21043",
+      "transpose_semitones": 4,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 172.0,
+      "category": "rock_intense",
+      "declared_progression": null,
+      "duration_seconds": 72.558,
+      "engine_commit": "7d5910b+dirty",
+      "files": [
+        "rock_intense_21044.mid",
+        "rock_intense_21044.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-13",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 21044,
+      "track_id": "rock_intense_21044",
+      "transpose_semitones": 3,
       "versions": [
         "main"
       ]
@@ -4212,13 +4658,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 124.8,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_10004.mid",
         "rock_standard_10004.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4235,13 +4681,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 135.652,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_10006.mid",
         "rock_standard_10006.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4281,13 +4727,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 120.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_10008.mid",
         "rock_standard_10008.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4304,13 +4750,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 130.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_10010.mid",
         "rock_standard_10010.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4350,13 +4796,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 135.652,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_10013.mid",
         "rock_standard_10013.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4373,13 +4819,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 111.429,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_10020.mid",
         "rock_standard_10020.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4396,13 +4842,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 135.652,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_10022.mid",
         "rock_standard_10022.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4419,15 +4865,15 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 107.586,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_10205.mid",
         "rock_standard_10205.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
-      "mode": "minor",
+      "mode": "major",
       "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 10205,
@@ -4442,15 +4888,15 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 130.0,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_10206.mid",
         "rock_standard_10206.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
-      "mode": "minor",
+      "mode": "major",
       "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 10206,
@@ -4488,15 +4934,15 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 124.8,
-      "engine_commit": "18f1ca2+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_10211.mid",
         "rock_standard_10211.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-04",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
-      "mode": "minor",
+      "mode": "major",
       "modulation_semitones": 0,
       "screening_passed": true,
       "seed": 10211,
@@ -4534,13 +4980,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 120.0,
-      "engine_commit": "faf31b1+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_20002.mid",
         "rock_standard_20002.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-09",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4580,13 +5026,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 115.556,
-      "engine_commit": "faf31b1+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_20006.mid",
         "rock_standard_20006.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-09",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4603,13 +5049,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 130.0,
-      "engine_commit": "faf31b1+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_20008.mid",
         "rock_standard_20008.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-09",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4625,14 +5071,14 @@
       "bpm": 104.0,
       "category": "rock_standard",
       "declared_progression": null,
-      "duration_seconds": 240.0,
-      "engine_commit": "14d1899+dirty",
+      "duration_seconds": 120.0,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_20011.mid",
         "rock_standard_20011.mp3"
       ],
-      "form": "rock_long",
-      "generated_date": "2026-08-10",
+      "form": "standard",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4649,13 +5095,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 120.0,
-      "engine_commit": "14d1899+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_20012.mid",
         "rock_standard_20012.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-10",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4717,14 +5163,14 @@
       "bpm": 112.0,
       "category": "rock_standard",
       "declared_progression": null,
-      "duration_seconds": 222.857,
-      "engine_commit": "627c3b6+dirty",
+      "duration_seconds": 111.429,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_20025.mid",
         "rock_standard_20025.mp3"
       ],
-      "form": "rock_long",
-      "generated_date": "2026-08-11",
+      "form": "standard",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4740,14 +5186,14 @@
       "bpm": 96.0,
       "category": "rock_standard",
       "declared_progression": null,
-      "duration_seconds": 260.0,
-      "engine_commit": "627c3b6+dirty",
+      "duration_seconds": 130.0,
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_20029.mid",
         "rock_standard_20029.mp3"
       ],
-      "form": "rock_long",
-      "generated_date": "2026-08-11",
+      "form": "standard",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4764,13 +5210,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 107.586,
-      "engine_commit": "474ec27+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_20030.mid",
         "rock_standard_20030.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4787,13 +5233,13 @@
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 115.556,
-      "engine_commit": "474ec27+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_20033.mid",
         "rock_standard_20033.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-12",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4806,17 +5252,86 @@
       ]
     },
     {
+      "bpm": 108.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 231.111,
+      "engine_commit": "f79fd0c+dirty",
+      "files": [
+        "rock_standard_20040.mid",
+        "rock_standard_20040.mp3"
+      ],
+      "form": "rock_long",
+      "generated_date": "2026-08-13",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20040,
+      "track_id": "rock_standard_20040",
+      "transpose_semitones": -2,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 104.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 120.0,
+      "engine_commit": "7d5910b+dirty",
+      "files": [
+        "rock_standard_20043.mid",
+        "rock_standard_20043.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-13",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20043,
+      "track_id": "rock_standard_20043",
+      "transpose_semitones": 5,
+      "versions": [
+        "main"
+      ]
+    },
+    {
+      "bpm": 116.0,
+      "category": "rock_standard",
+      "declared_progression": null,
+      "duration_seconds": 107.586,
+      "engine_commit": "7d5910b+dirty",
+      "files": [
+        "rock_standard_20044.mid",
+        "rock_standard_20044.mp3"
+      ],
+      "form": "standard",
+      "generated_date": "2026-08-13",
+      "intro_variant": "a",
+      "mode": "major",
+      "modulation_semitones": 0,
+      "screening_passed": true,
+      "seed": 20044,
+      "track_id": "rock_standard_20044",
+      "transpose_semitones": 0,
+      "versions": [
+        "main"
+      ]
+    },
+    {
       "bpm": 100.0,
       "category": "rock_standard",
       "declared_progression": null,
       "duration_seconds": 124.8,
-      "engine_commit": "faf31b1+dirty",
+      "engine_commit": "7d5910b+dirty",
       "files": [
         "rock_standard_77777.mid",
         "rock_standard_77777.mp3"
       ],
       "form": "standard",
-      "generated_date": "2026-08-09",
+      "generated_date": "2026-08-13",
       "intro_variant": "a",
       "mode": "major",
       "modulation_semitones": 0,
@@ -4830,12 +5345,12 @@
     }
   ],
   "tracks_by_category": {
-    "classical_duo": 29,
+    "classical_duo": 30,
     "classical_piano": 19,
-    "classical_quartet": 29,
-    "jpop_3piece": 29,
-    "karaoke": 28,
-    "rock_intense": 21,
-    "rock_standard": 28
+    "classical_quartet": 34,
+    "jpop_3piece": 35,
+    "karaoke": 31,
+    "rock_intense": 23,
+    "rock_standard": 31
   }
 }

@@ -9,43 +9,43 @@
   ],
   "bpm": 144.0,
   "category": "karaoke",
-  "declared_progression": "royal_road",
+  "declared_progression": null,
   "duration_seconds": 160.0,
-  "engine_commit": "14d1899+dirty",
+  "engine_commit": "7d5910b+dirty",
   "files": [
     {
-      "bytes": 22768,
+      "bytes": 25180,
       "format": "midi",
       "name": "karaoke_23017_guide.mid",
       "role": "guide",
-      "sha256": "239ade6abc34bda5176550a0225e0ff376f89318f7c8cb51ac733ed02eb768d1"
+      "sha256": "1a2a23c246cfb767b97bf0671abb4156f3806dd05e3f2487e7138aee58511138"
     },
     {
-      "bytes": 3492647,
+      "bytes": 3374907,
       "format": "mp3",
       "name": "karaoke_23017_guide.mp3",
       "purpose": "preview",
       "role": "guide",
-      "sha256": "4c71d9f079712d55c064471b6dabcf970c3c6322f53cb7c8a79abd64c05ceb71"
+      "sha256": "0d13288f5719e9048168f5080cf65bfa6e1b2e84af84caee8cf537f7dac88403"
     },
     {
-      "bytes": 17830,
+      "bytes": 20278,
       "format": "midi",
       "name": "karaoke_23017_karaoke.mid",
       "role": "karaoke",
-      "sha256": "7f9e9f981ee0f1dbdf4b20b43b36bc097e3485069ba844d793432ff895260557"
+      "sha256": "b5831af79db014630128e0ba59df8ac3da877fad1f35591a820bc036dcfcf7bf"
     },
     {
-      "bytes": 3560851,
+      "bytes": 3460385,
       "format": "mp3",
       "name": "karaoke_23017_karaoke.mp3",
       "purpose": "preview",
       "role": "karaoke",
-      "sha256": "4ebc085f32433ab261d27e51ae9c91fd14d8c27df50c9582a0b371068636861a"
+      "sha256": "55e67b062c947fff4220d4167509f0bd91dd4ef0de672229362ffe6de5cef578"
     }
   ],
   "form": "jpop_full_karaoke",
-  "generated_date": "2026-08-10",
+  "generated_date": "2026-08-13",
   "intro_variant": "a",
   "lead_overrides": {
     "chorus_shift": 5,
@@ -75,10 +75,10 @@
       {
         "family": "bass",
         "flagged": false,
-        "longest_match_tokens": 19,
-        "min_window_song_count": 6,
+        "longest_match_tokens": 12,
+        "min_window_song_count": 10,
         "n_rare_windows": 0,
-        "n_tokens": 389,
+        "n_tokens": 391,
         "part": "bass"
       },
       {
@@ -87,7 +87,7 @@
         "longest_match_tokens": 0,
         "min_window_song_count": null,
         "n_rare_windows": 0,
-        "n_tokens": 109,
+        "n_tokens": 242,
         "part": "keyboard"
       },
       {
@@ -96,7 +96,7 @@
         "longest_match_tokens": 0,
         "min_window_song_count": null,
         "n_rare_windows": 0,
-        "n_tokens": 500,
+        "n_tokens": 506,
         "part": "lead"
       }
     ],

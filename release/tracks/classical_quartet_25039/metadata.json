@@ -1,0 +1,126 @@
+{
+  "accompaniment_type": "block",
+  "attribution": [
+    {
+      "component": "string voice model training data",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "note": "CC0 requires no attribution; the source is stated for transparency.",
+      "source": "OpenScore String Quartets"
+    }
+  ],
+  "bpm": 66.0,
+  "category": "classical_quartet",
+  "declared_progression": null,
+  "duration_seconds": 58.182,
+  "engine_commit": "f79fd0c+dirty",
+  "files": [
+    {
+      "bytes": 3843,
+      "format": "midi",
+      "name": "classical_quartet_25039.mid",
+      "role": "main",
+      "sha256": "c2d41d3498b73dd0bf526079faf271ed80573fd1d120284140cab707e8a04356"
+    },
+    {
+      "bytes": 1052217,
+      "format": "mp3",
+      "name": "classical_quartet_25039.mp3",
+      "purpose": "preview",
+      "role": "main",
+      "sha256": "a0fe121fcd220ffcfbffaab5a028550fec5fb17b46ed97dc0ac7b0e0c502bb22"
+    }
+  ],
+  "form": "AB",
+  "generated_date": "2026-08-13",
+  "instrumentation": [
+    "violin",
+    "cello",
+    "viola",
+    "violin2"
+  ],
+  "length_tier": "短",
+  "license": {
+    "generated_content": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "meter_beats": 4,
+  "mode": "major",
+  "modulation_semitones": 0,
+  "n_measures": 16,
+  "preset": "やすらぎ",
+  "screening": {
+    "parts": [
+      {
+        "family": "classical_cello",
+        "flagged": false,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 63,
+        "part": "cello"
+      },
+      {
+        "family": "classical_viola",
+        "flagged": false,
+        "longest_match_tokens": 9,
+        "min_window_song_count": 1,
+        "n_rare_windows": 2,
+        "n_tokens": 81,
+        "part": "viola"
+      },
+      {
+        "family": "classical_violin1",
+        "flagged": false,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 130,
+        "part": "violin"
+      },
+      {
+        "family": "classical_violin2",
+        "flagged": false,
+        "longest_match_tokens": 0,
+        "min_window_song_count": null,
+        "n_rare_windows": 0,
+        "n_tokens": 124,
+        "part": "violin2"
+      }
+    ],
+    "passed": true,
+    "rule": "match_length >= N AND at least one rare window (corpus songs containing the window <= k)",
+    "screener": "scripts/screen_similarity.py (PUB1)",
+    "thresholds": {
+      "max_songs_k": 3,
+      "n_tokens": {
+        "backing": 8,
+        "bass": 19,
+        "classical_cello": 23,
+        "classical_piano": 8,
+        "classical_viola": 17,
+        "classical_violin1": 12,
+        "classical_violin2": 17,
+        "lead": 16
+      },
+      "source": "similarity_threshold.md",
+      "window_n": {
+        "backing": 4,
+        "bass": 8,
+        "classical_cello": 8,
+        "classical_piano": 4,
+        "classical_viola": 8,
+        "classical_violin1": 8,
+        "classical_violin2": 8,
+        "lead": 8
+      }
+    }
+  },
+  "section_length": 8,
+  "seed": 25039,
+  "tonic": "C",
+  "track_id": "classical_quartet_25039",
+  "versions": [
+    "main"
+  ]
+}

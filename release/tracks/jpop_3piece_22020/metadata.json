@@ -10,27 +10,27 @@
   "bpm": 144.0,
   "category": "jpop_3piece",
   "declared_progression": null,
-  "duration_seconds": 213.333,
-  "engine_commit": "627c3b6+dirty",
+  "duration_seconds": 160.0,
+  "engine_commit": "7d5910b+dirty",
   "files": [
     {
-      "bytes": 30683,
+      "bytes": 25480,
       "format": "midi",
       "name": "jpop_3piece_22020.mid",
       "role": "main",
-      "sha256": "253b6cc7376c39a3660ffabf75750a47fcc0b8d1b58415cecd3e206effee44cb"
+      "sha256": "62004c82997da426e67b102d3ffa755011c12882006bcf2cb949be968e01d7ac"
     },
     {
-      "bytes": 4851412,
+      "bytes": 3604181,
       "format": "mp3",
       "name": "jpop_3piece_22020.mp3",
       "purpose": "preview",
       "role": "main",
-      "sha256": "a18b782fe7b2662b29f9ce3089fa665b0e636ce2ad1530e0b1d7e8f252627585"
+      "sha256": "8c97fc15bd88edf4b416e6c9de29554abdf86a34eac2559b243898ad1d40d283"
     }
   ],
-  "form": "jpop_extended_3piece",
-  "generated_date": "2026-08-11",
+  "form": "jpop_full_3piece",
+  "generated_date": "2026-08-13",
   "intro_variant": "b",
   "lead_overrides": null,
   "license": {
@@ -39,7 +39,7 @@
   },
   "mode": "major",
   "modulation_semitones": 0,
-  "n_measures": 128,
+  "n_measures": 96,
   "preset": "standard",
   "screening": {
     "parts": [
@@ -55,19 +55,19 @@
       {
         "family": "bass",
         "flagged": false,
-        "longest_match_tokens": 10,
-        "min_window_song_count": 10,
-        "n_rare_windows": 0,
-        "n_tokens": 603,
+        "longest_match_tokens": 11,
+        "min_window_song_count": 2,
+        "n_rare_windows": 4,
+        "n_tokens": 429,
         "part": "bass"
       },
       {
         "family": "backing",
         "flagged": false,
-        "longest_match_tokens": 7,
-        "min_window_song_count": 2,
-        "n_rare_windows": 4,
-        "n_tokens": 244,
+        "longest_match_tokens": 4,
+        "min_window_song_count": 9,
+        "n_rare_windows": 0,
+        "n_tokens": 391,
         "part": "keyboard"
       },
       {

@@ -11,33 +11,33 @@
   "category": "rock_standard",
   "declared_progression": null,
   "duration_seconds": 124.8,
-  "engine_commit": "18f1ca2+dirty",
+  "engine_commit": "7d5910b+dirty",
   "files": [
     {
-      "bytes": 13294,
+      "bytes": 13033,
       "format": "midi",
       "name": "rock_standard_10211.mid",
       "role": "main",
-      "sha256": "dad84733caab5062fddeb3b30ca4e4a683b71b918e7a63f878e7551bd905c41b"
+      "sha256": "a99de02573742456692369eee89a7c72d326ab788d9aab64b8f08c8bcf759e3c"
     },
     {
-      "bytes": 2833453,
+      "bytes": 2814997,
       "format": "mp3",
       "name": "rock_standard_10211.mp3",
       "purpose": "preview",
       "role": "main",
-      "sha256": "26cf02f17bf8c137aac78888cc492bad49c060397840e9966a2770a5a898cdb8"
+      "sha256": "a616b18ef3e95f1f5afa4983ffabe8713d8df718bdf911640e296dfa43d6a725"
     }
   ],
   "form": "standard",
-  "generated_date": "2026-08-04",
+  "generated_date": "2026-08-13",
   "intro_variant": "a",
   "lead_overrides": null,
   "license": {
     "generated_content": "CC0-1.0",
     "url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
-  "mode": "minor",
+  "mode": "major",
   "modulation_semitones": 0,
   "n_measures": 52,
   "preset": "standard",
@@ -56,27 +56,27 @@
         "family": "bass",
         "flagged": false,
         "longest_match_tokens": 11,
-        "min_window_song_count": 11,
+        "min_window_song_count": 14,
         "n_rare_windows": 0,
-        "n_tokens": 233,
+        "n_tokens": 194,
         "part": "bass"
       },
       {
         "family": "backing",
         "flagged": false,
-        "longest_match_tokens": 0,
-        "min_window_song_count": null,
-        "n_rare_windows": 0,
-        "n_tokens": 93,
+        "longest_match_tokens": 5,
+        "min_window_song_count": 2,
+        "n_rare_windows": 1,
+        "n_tokens": 94,
         "part": "keyboard"
       },
       {
         "family": "lead",
         "flagged": false,
         "longest_match_tokens": 9,
-        "min_window_song_count": 5,
-        "n_rare_windows": 0,
-        "n_tokens": 158,
+        "min_window_song_count": 1,
+        "n_rare_windows": 2,
+        "n_tokens": 163,
         "part": "lead"
       }
     ],
